@@ -217,25 +217,61 @@ export default ({
                 });
                 this.data.ctx.add(text);
 
+                // ele.Coord.forEach((item, index) => {
+                //     // console.log(item.length)
+                //     if (index !== 0) {
+                //         let [x, y] = item;
+                //         let [x1, y1] = ele.Coord[index - 1];
+                //         lines = new fabric.Line([x, y, x1, y1], {
+                //             fill: '#fff',
+                //             stroke: '#fff',
+                //             strokeWidth: 2,
+                //             selectable: false
+                //         });
+                //         this.data.ctx.add(lines);
+                //     }
+                // })
 
-
-
-
-                ele.Coord.forEach((item, index) => {
-                    // console.log(item.length)
-                    if (index !== 0) {
+                if (ele.Coord.length == 2) {
+                    ele.Coord.forEach((item, index) => {
+                        // let [x,y] = item; 解构赋值
+                        let x = item[0];
+                        let y = item[1];
+                        if (index !== 0) {
+                            let [x1, y1] = ele.Coord[index - 1];
+                            lines = new fabric.Line([x, y, x1, y1], {
+                                fill: 'red',
+                                stroke: 'red',
+                                strokeWidth: 2,
+                                selectable: false
+                            });
+                            this.data.ctx.add(lines);
+                        }
+                    })
+                } else if (ele.Coord.length == 3) {
+                    ele.Coord.forEach((item, index) => {
+                        // let [x,y] = item; 解构赋值
                         let [x, y] = item;
-                        let [x1, y1] = ele.Coord[index - 1];
-                        lines = new fabric.Line([x, y, x1, y1], {
-                            fill: 'red',
-                            stroke: 'red',
-                            strokeWidth: 2,
-                            selectable: false
-                        });
-                        this.data.ctx.add(lines);
-                    }
-                    
+                        console.log(x, y, 'item')
+
+                        if (index !== 0) {
+                            let [x1, y1] = ele.Coord[index - 1];
+                            lines = new fabric.Line([x, y, x1, y1], {
+                                fill: '#fff',
+                                stroke: '#fff',
+                                strokeWidth: 2,
+                                selectable: false
+                            });
+                            this.data.ctx.add(lines);
+                        }
+                    })
+                }
+
+                lines.on('mouseover', (e) => {
+                    console.log('e', e)
                 })
+
+                return
 
 
                 //鼠标移入 lines
@@ -517,12 +553,14 @@ export default ({
                                     onClick: () => {
                                         //显示
                                         PositiveSwitchCoord.set('visible', true);
+                                        this.data.ctx.renderAll();
                                     }
                                 },
                                 {
                                     label: '反操',
                                     onClick: () => {
                                         PositiveSwitchCoord.set('visible', false);
+                                        this.data.ctx.renderAll();
                                     }
                                 },
                                 {

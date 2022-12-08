@@ -1,0 +1,5065 @@
+{
+  "Id": 1014,
+  "Name": "咸阳北",
+  "IsTDCS": false,
+  "CtrlMode": 0,
+  "CanvasBaseSz": "3250, 2000",
+  "MltOffsetBaseSz": "18125, 0",
+  "StaNames": [
+    {
+      "Name": "咸阳北",
+      "NameCoord": "1570, 131",
+      "CenterKmDesp": "",
+      "DrawTrainUp": false,
+      "UpgoingToLeft": false,
+      "Id": 10850101408102,
+      "BizName": "咸阳北"
+    },
+    {
+      "Name": "咸阳北",
+      "NameCoord": "1601, 43",
+      "CenterKmDesp": "",
+      "DrawTrainUp": false,
+      "UpgoingToLeft": false,
+      "Id": 10850101408101,
+      "BizName": "咸阳北"
+    }
+  ],
+  "JYJs": [
+    {
+      "Coord": ["2637, 572", "2637, 592"],
+      "Type": 0,
+      "Id": 10548101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2635, 657", "2635, 677"],
+      "Type": 0,
+      "Id": 10549101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2960, 657", "2960, 677"],
+      "Type": 0,
+      "Id": 10550101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["249, 730", "249, 750"],
+      "Type": 0,
+      "Id": 10551101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["636, 733", "636, 753"],
+      "Type": 0,
+      "Id": 10552101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["507, 733", "507, 753"],
+      "Type": 0,
+      "Id": 10553101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["380, 733", "380, 753"],
+      "Type": 0,
+      "Id": 10554101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["249, 731", "249, 751"],
+      "Type": 0,
+      "Id": 10555101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["249, 817", "249, 837"],
+      "Type": 0,
+      "Id": 10556101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["509, 818", "509, 838"],
+      "Type": 0,
+      "Id": 10557101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["380, 818", "380, 838"],
+      "Type": 0,
+      "Id": 10558101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["249, 818", "249, 838"],
+      "Type": 0,
+      "Id": 10559101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["766, 817", "766, 837"],
+      "Type": 0,
+      "Id": 10560101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1990, 817", "1990, 837"],
+      "Type": 0,
+      "Id": 10561101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 817", "1476, 837"],
+      "Type": 0,
+      "Id": 10562101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1990, 731", "1990, 751"],
+      "Type": 0,
+      "Id": 10563101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 731", "1476, 751"],
+      "Type": 0,
+      "Id": 10564101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1030, 731", "1030, 751"],
+      "Type": 0,
+      "Id": 10565101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["947, 820", "947, 840"],
+      "Type": 0,
+      "Id": 10566101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["917, 776", "937, 796"],
+      "Type": 0,
+      "Id": 10567101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1173, 953", "1153, 973"],
+      "Type": 0,
+      "Id": 10568101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1261, 599", "1281, 619"],
+      "Type": 0,
+      "Id": 10569101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2173, 603", "2153, 623"],
+      "Type": 0,
+      "Id": 10570101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2396, 733", "2396, 753"],
+      "Type": 0,
+      "Id": 10571101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2497, 774", "2477, 794"],
+      "Type": 0,
+      "Id": 10572101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2421, 819", "2421, 839"],
+      "Type": 0,
+      "Id": 10573101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2181, 951", "2201, 971"],
+      "Type": 0,
+      "Id": 10574101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2766, 731", "2766, 751"],
+      "Type": 0,
+      "Id": 10575101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2893, 731", "2893, 751"],
+      "Type": 0,
+      "Id": 10576101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2767, 731", "2767, 751"],
+      "Type": 0,
+      "Id": 10577101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2764, 817", "2764, 837"],
+      "Type": 0,
+      "Id": 10578101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2891, 818", "2891, 838"],
+      "Type": 0,
+      "Id": 10579101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2764, 818", "2764, 838"],
+      "Type": 0,
+      "Id": 10580101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2516, 569", "2516, 589"],
+      "Type": 0,
+      "Id": 10581101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2511, 656", "2511, 676"],
+      "Type": 0,
+      "Id": 10582101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["162, 572", "162, 592"],
+      "Type": 0,
+      "Id": 10583101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["749, 572", "749, 592"],
+      "Type": 0,
+      "Id": 10584101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["163, 658", "163, 678"],
+      "Type": 0,
+      "Id": 10585101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["751, 658", "751, 678"],
+      "Type": 0,
+      "Id": 10586101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 400", "1462, 420"],
+      "Type": 0,
+      "Id": 10587101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 400", "1900, 420"],
+      "Type": 0,
+      "Id": 10588101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 488", "1462, 508"],
+      "Type": 0,
+      "Id": 10589101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 488", "1900, 508"],
+      "Type": 0,
+      "Id": 10590101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 574", "1462, 594"],
+      "Type": 0,
+      "Id": 10591101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 574", "1900, 594"],
+      "Type": 0,
+      "Id": 10592101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 660", "1462, 680"],
+      "Type": 0,
+      "Id": 10593101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 660", "1900, 680"],
+      "Type": 0,
+      "Id": 10594101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 746", "1462, 766"],
+      "Type": 0,
+      "Id": 10595101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 746", "1900, 766"],
+      "Type": 0,
+      "Id": 10596101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1462, 832", "1462, 852"],
+      "Type": 0,
+      "Id": 10597101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1900, 832", "1900, 852"],
+      "Type": 0,
+      "Id": 10598101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1248, 437", "1268, 457"],
+      "Type": 0,
+      "Id": 10599101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1012, 572", "1012, 592"],
+      "Type": 0,
+      "Id": 10600101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1154, 790", "1134, 810"],
+      "Type": 0,
+      "Id": 10601101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["898, 617", "918, 637"],
+      "Type": 0,
+      "Id": 10602101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2082, 443", "2062, 463"],
+      "Type": 0,
+      "Id": 10603101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2308, 572", "2308, 592"],
+      "Type": 0,
+      "Id": 10604101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2411, 615", "2391, 635"],
+      "Type": 0,
+      "Id": 10605101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2091, 791", "2111, 811"],
+      "Type": 0,
+      "Id": 10606101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2431, 409", "2431, 429"],
+      "Type": 0,
+      "Id": 10607101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2429, 497", "2429, 517"],
+      "Type": 0,
+      "Id": 10608101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["929, 660", "929, 680"],
+      "Type": 0,
+      "Id": 10609101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2125, 409", "2125, 429"],
+      "Type": 0,
+      "Id": 10610101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["2334, 657", "2334, 677"],
+      "Type": 0,
+      "Id": 10611101405102,
+      "BizName": ""
+    },
+    {
+      "Coord": ["3022, 731", "3022, 751"],
+      "Type": 0,
+      "Id": 10612101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["3018, 818", "3018, 838"],
+      "Type": 0,
+      "Id": 10613101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["636, 818", "636, 838"],
+      "Type": 0,
+      "Id": 10614101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["764, 818", "764, 838"],
+      "Type": 0,
+      "Id": 10615101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["767, 731", "767, 751"],
+      "Type": 0,
+      "Id": 10616101405101,
+      "BizName": ""
+    },
+    {
+      "Coord": ["1990, 646", "1990, 666"],
+      "Type": 0,
+      "Id": 10617101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 646", "1476, 666"],
+      "Type": 0,
+      "Id": 10618101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1990, 561", "1990, 581"],
+      "Type": 0,
+      "Id": 10619101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 561", "1476, 581"],
+      "Type": 0,
+      "Id": 10620101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 903", "1476, 923"],
+      "Type": 0,
+      "Id": 10621101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1990, 903", "1990, 923"],
+      "Type": 0,
+      "Id": 10622101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1476, 989", "1476, 1009"],
+      "Type": 0,
+      "Id": 10623101405101,
+      "BizName": null
+    },
+    {
+      "Coord": ["1990, 989", "1990, 1009"],
+      "Type": 0,
+      "Id": 10624101405101,
+      "BizName": null
+    }
+  ],
+  "Relays": [],
+  "RailSecs": [
+    {
+      "Name": "0299G",
+      "Coord": ["2636, 583", "2804, 583"],
+      "NameCoord": "2689, 594",
+      "IsDown": true,
+      "PositiveCoord1": ["2705, 568", "2705, 598", "2720, 591", "2720, 576"],
+      "PositiveCoord2": ["2720, 576", "2720, 591", "2735, 583"],
+      "NegativeCoord1": ["2735, 569", "2735, 598", "2720, 591", "2720, 576"],
+      "NegativeCoord2": ["2720, 576", "2720, 591", "2705, 583"],
+      "TrainTextCoord": "1820, 432",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10880101401102,
+      "BizName": "02991014"
+    },
+    {
+      "Name": "0315G",
+      "Coord": ["2804, 583", "2960, 583"],
+      "NameCoord": "2851, 594",
+      "IsDown": true,
+      "PositiveCoord1": ["2867, 568", "2867, 598", "2882, 591", "2882, 576"],
+      "PositiveCoord2": ["2882, 576", "2882, 591", "2897, 583"],
+      "NegativeCoord1": ["2897, 569", "2897, 598", "2882, 591", "2882, 576"],
+      "NegativeCoord2": ["2882, 576", "2882, 591", "2867, 583"],
+      "TrainTextCoord": "1934, 432",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10881101401102,
+      "BizName": "03151014"
+    },
+    {
+      "Name": "0324G",
+      "Coord": ["2636, 669", "2804, 669"],
+      "NameCoord": "2689, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["2735, 653", "2735, 683", "2720, 676", "2720, 661"],
+      "PositiveCoord2": ["2720, 661", "2720, 676", "2705, 668"],
+      "NegativeCoord1": ["2705, 654", "2705, 683", "2720, 676", "2720, 661"],
+      "NegativeCoord2": ["2720, 661", "2720, 676", "2735, 668"],
+      "TrainTextCoord": "1820, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10882101401102,
+      "BizName": "03241014"
+    },
+    {
+      "Name": "0352G",
+      "Coord": ["2804, 669", "2960, 669"],
+      "NameCoord": "2851, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["2897, 653", "2897, 683", "2882, 676", "2882, 661"],
+      "PositiveCoord2": ["2882, 661", "2882, 676", "2867, 668"],
+      "NegativeCoord1": ["2867, 654", "2867, 683", "2882, 676", "2882, 661"],
+      "NegativeCoord2": ["2882, 661", "2882, 676", "2897, 668"],
+      "TrainTextCoord": "1934, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10883101401102,
+      "BizName": "03521014"
+    },
+    {
+      "Name": "0195G",
+      "Coord": ["162, 582", "309, 582"],
+      "NameCoord": "204, 602",
+      "IsDown": true,
+      "PositiveCoord1": ["219, 566", "219, 596", "234, 589", "234, 574"],
+      "PositiveCoord2": ["234, 574", "234, 589", "249, 581"],
+      "NegativeCoord1": ["249, 567", "249, 596", "234, 589", "234, 574"],
+      "NegativeCoord2": ["234, 574", "234, 589", "219, 581"],
+      "TrainTextCoord": "81, 431",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10884101401102,
+      "BizName": "01951014"
+    },
+    {
+      "Name": "0195G",
+      "Coord": ["249, 741", "380, 741"],
+      "NameCoord": "281, 754",
+      "IsDown": true,
+      "PositiveCoord1": ["298, 727", "298, 757", "313, 750", "313, 735"],
+      "PositiveCoord2": ["313, 735", "313, 750", "328, 742"],
+      "NegativeCoord1": ["328, 728", "328, 757", "313, 750", "313, 735"],
+      "NegativeCoord2": ["313, 735", "313, 750", "298, 742"],
+      "TrainTextCoord": "136, 543",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10884101401101,
+      "BizName": "01951014"
+    },
+    {
+      "Name": "0217G",
+      "Coord": ["380, 741", "507, 741"],
+      "NameCoord": "411, 754",
+      "IsDown": true,
+      "PositiveCoord1": ["428, 727", "428, 757", "443, 750", "443, 735"],
+      "PositiveCoord2": ["443, 735", "443, 750", "458, 742"],
+      "NegativeCoord1": ["458, 728", "458, 757", "443, 750", "443, 735"],
+      "NegativeCoord2": ["443, 735", "443, 750", "428, 742"],
+      "TrainTextCoord": "227, 543",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10885101401101,
+      "BizName": "02171014"
+    },
+    {
+      "Name": "0239G",
+      "Coord": ["507, 741", "636, 741"],
+      "NameCoord": "540, 754",
+      "IsDown": true,
+      "PositiveCoord1": ["556, 727", "556, 757", "571, 750", "571, 735"],
+      "PositiveCoord2": ["571, 735", "571, 750", "586, 742"],
+      "NegativeCoord1": ["586, 728", "586, 757", "571, 750", "571, 735"],
+      "NegativeCoord2": ["571, 735", "571, 750", "556, 742"],
+      "TrainTextCoord": "316, 543",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10886101401101,
+      "BizName": "02391014"
+    },
+    {
+      "Name": "0261G",
+      "Coord": ["636, 741", "767, 741"],
+      "NameCoord": "669, 754",
+      "IsDown": true,
+      "PositiveCoord1": ["685, 727", "685, 757", "700, 750", "700, 735"],
+      "PositiveCoord2": ["700, 735", "700, 750", "715, 742"],
+      "NegativeCoord1": ["715, 728", "715, 757", "700, 750", "700, 735"],
+      "NegativeCoord2": ["700, 735", "700, 750", "685, 742"],
+      "TrainTextCoord": "407, 543",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10887101401101,
+      "BizName": "02611014"
+    },
+    {
+      "Name": "0220G",
+      "Coord": ["249, 827", "380, 827"],
+      "NameCoord": "282, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["329, 812", "329, 842", "314, 835", "314, 820"],
+      "PositiveCoord2": ["314, 820", "314, 835", "299, 827"],
+      "NegativeCoord1": ["299, 813", "299, 842", "314, 835", "314, 820"],
+      "NegativeCoord2": ["314, 820", "314, 835", "329, 827"],
+      "TrainTextCoord": "136, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10888101401101,
+      "BizName": "02201014"
+    },
+    {
+      "Name": "0244G",
+      "Coord": ["380, 827", "509, 827"],
+      "NameCoord": "413, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["459, 812", "459, 842", "444, 835", "444, 820"],
+      "PositiveCoord2": ["444, 820", "444, 835", "429, 827"],
+      "NegativeCoord1": ["429, 813", "429, 842", "444, 835", "444, 820"],
+      "NegativeCoord2": ["444, 820", "444, 835", "459, 827"],
+      "TrainTextCoord": "227, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10889101401101,
+      "BizName": "02441014"
+    },
+    {
+      "Name": "0266G",
+      "Coord": ["509, 827", "636, 827"],
+      "NameCoord": "540, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["586, 812", "586, 842", "571, 835", "571, 820"],
+      "PositiveCoord2": ["571, 820", "571, 835", "556, 827"],
+      "NegativeCoord1": ["556, 813", "556, 842", "571, 835", "571, 820"],
+      "NegativeCoord2": ["571, 820", "571, 835", "586, 827"],
+      "TrainTextCoord": "317, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10890101401101,
+      "BizName": "02661014"
+    },
+    {
+      "Name": "0282G",
+      "Coord": ["636, 827", "764, 827"],
+      "NameCoord": "669, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["715, 812", "715, 842", "700, 835", "700, 820"],
+      "PositiveCoord2": ["700, 820", "700, 835", "685, 827"],
+      "NegativeCoord1": ["685, 813", "685, 842", "700, 835", "700, 820"],
+      "NegativeCoord2": ["700, 820", "700, 835", "715, 827"],
+      "TrainTextCoord": "406, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10891101401101,
+      "BizName": "02821014"
+    },
+    {
+      "Name": "0299G",
+      "Coord": ["2767, 740", "2893, 740"],
+      "NameCoord": "2798, 753",
+      "IsDown": true,
+      "PositiveCoord1": ["2814, 726", "2814, 756", "2829, 749", "2829, 734"],
+      "PositiveCoord2": ["2829, 734", "2829, 749", "2844, 741"],
+      "NegativeCoord1": ["2844, 727", "2844, 756", "2829, 749", "2829, 734"],
+      "NegativeCoord2": ["2829, 734", "2829, 749", "2814, 741"],
+      "TrainTextCoord": "1897, 542",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10880101401101,
+      "BizName": "02991014"
+    },
+    {
+      "Name": "0315G",
+      "Coord": ["2893, 740", "3022, 740"],
+      "NameCoord": "2927, 753",
+      "IsDown": true,
+      "PositiveCoord1": ["2942, 726", "2942, 756", "2957, 749", "2957, 734"],
+      "PositiveCoord2": ["2957, 734", "2957, 749", "2972, 741"],
+      "NegativeCoord1": ["2972, 727", "2972, 756", "2957, 749", "2957, 734"],
+      "NegativeCoord2": ["2957, 734", "2957, 749", "2942, 741"],
+      "TrainTextCoord": "1986, 542",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10881101401101,
+      "BizName": "03151014"
+    },
+    {
+      "Name": "0324G",
+      "Coord": ["2764, 827", "2891, 827"],
+      "NameCoord": "2796, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["2842, 812", "2842, 842", "2827, 835", "2827, 820"],
+      "PositiveCoord2": ["2827, 820", "2827, 835", "2812, 827"],
+      "NegativeCoord1": ["2812, 813", "2812, 842", "2827, 835", "2827, 820"],
+      "NegativeCoord2": ["2827, 820", "2827, 835", "2842, 827"],
+      "TrainTextCoord": "1896, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10882101401101,
+      "BizName": "03241014"
+    },
+    {
+      "Name": "0352G",
+      "Coord": ["2891, 827", "3018, 827"],
+      "NameCoord": "2922, 784",
+      "IsDown": false,
+      "PositiveCoord1": ["2969, 812", "2969, 842", "2954, 835", "2954, 820"],
+      "PositiveCoord2": ["2954, 820", "2954, 835", "2939, 827"],
+      "NegativeCoord1": ["2939, 813", "2939, 842", "2954, 835", "2954, 820"],
+      "NegativeCoord2": ["2954, 820", "2954, 835", "2969, 827"],
+      "TrainTextCoord": "1985, 603",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10883101401101,
+      "BizName": "03521014"
+    },
+    {
+      "Name": "0217G",
+      "Coord": ["309, 582", "458, 582"],
+      "NameCoord": "351, 602",
+      "IsDown": true,
+      "PositiveCoord1": ["368, 566", "368, 596", "383, 589", "383, 574"],
+      "PositiveCoord2": ["383, 574", "383, 589", "398, 581"],
+      "NegativeCoord1": ["398, 567", "398, 596", "383, 589", "383, 574"],
+      "NegativeCoord2": ["383, 574", "383, 589", "368, 581"],
+      "TrainTextCoord": "185, 431",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10885101401102,
+      "BizName": "02171014"
+    },
+    {
+      "Name": "0239G",
+      "Coord": ["458, 582", "602, 582"],
+      "NameCoord": "498, 602",
+      "IsDown": true,
+      "PositiveCoord1": ["515, 566", "515, 596", "530, 589", "530, 574"],
+      "PositiveCoord2": ["530, 574", "530, 589", "545, 581"],
+      "NegativeCoord1": ["545, 567", "545, 596", "530, 589", "530, 574"],
+      "NegativeCoord2": ["530, 574", "530, 589", "515, 581"],
+      "TrainTextCoord": "287, 431",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10886101401102,
+      "BizName": "02391014"
+    },
+    {
+      "Name": "0261G",
+      "Coord": ["602, 582", "749, 582"],
+      "NameCoord": "644, 602",
+      "IsDown": true,
+      "PositiveCoord1": ["659, 566", "659, 596", "674, 589", "674, 574"],
+      "PositiveCoord2": ["674, 574", "674, 589", "689, 581"],
+      "NegativeCoord1": ["689, 567", "689, 596", "674, 589", "674, 574"],
+      "NegativeCoord2": ["674, 574", "674, 589", "659, 581"],
+      "TrainTextCoord": "389, 431",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10887101401102,
+      "BizName": "02611014"
+    },
+    {
+      "Name": "0220G",
+      "Coord": ["162, 669", "307, 669"],
+      "NameCoord": "202, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["248, 653", "248, 682", "234, 675", "234, 660"],
+      "PositiveCoord2": ["234, 660", "234, 675", "219, 668"],
+      "NegativeCoord1": ["219, 653", "219, 682", "234, 675", "234, 660"],
+      "NegativeCoord2": ["234, 660", "234, 675", "249, 667"],
+      "TrainTextCoord": "80, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10888101401102,
+      "BizName": "02201014"
+    },
+    {
+      "Name": "0244G",
+      "Coord": ["307, 669", "456, 669"],
+      "NameCoord": "349, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["395, 653", "395, 682", "380, 675", "380, 660"],
+      "PositiveCoord2": ["380, 660", "380, 675", "365, 668"],
+      "NegativeCoord1": ["365, 653", "365, 682", "380, 675", "380, 660"],
+      "NegativeCoord2": ["380, 660", "380, 675", "395, 667"],
+      "TrainTextCoord": "183, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10889101401102,
+      "BizName": "02441014"
+    },
+    {
+      "Name": "0266G",
+      "Coord": ["456, 669", "602, 669"],
+      "NameCoord": "498, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["543, 653", "543, 682", "528, 675", "528, 660"],
+      "PositiveCoord2": ["528, 660", "528, 675", "513, 668"],
+      "NegativeCoord1": ["513, 653", "513, 682", "528, 675", "528, 660"],
+      "NegativeCoord2": ["528, 660", "528, 675", "543, 667"],
+      "TrainTextCoord": "286, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10890101401102,
+      "BizName": "02661014"
+    },
+    {
+      "Name": "0282G",
+      "Coord": ["602, 669", "751, 669"],
+      "NameCoord": "644, 629",
+      "IsDown": false,
+      "PositiveCoord1": ["690, 653", "690, 682", "675, 675", "675, 660"],
+      "PositiveCoord2": ["675, 660", "675, 675", "660, 668"],
+      "NegativeCoord1": ["660, 653", "660, 682", "675, 675", "675, 660"],
+      "NegativeCoord2": ["675, 660", "675, 675", "690, 667"],
+      "TrainTextCoord": "390, 492",
+      "SectionType": 1,
+      "AdditionalPositiveCoord1": null,
+      "AdditionalPositiveCoord2": null,
+      "AdditionalNegativeCoord1": null,
+      "AdditionalNegativeCoord2": null,
+      "DrawTrainUp": false,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10891101401102,
+      "BizName": "02821014"
+    }
+  ],
+  "RailEndTypes": [
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2596, 584",
+        "2646, 584",
+        "2626, 576",
+        "2626, 593",
+        "2613, 593",
+        "2663, 576",
+        "2646, 576",
+        "2646, 593",
+        "2663, 593"
+      ],
+      "Name": "综2",
+      "NameCoord": "2683, 564",
+      "Id": 10696101414101,
+      "BizName": "综2"
+    },
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2604, 666",
+        "2647, 666",
+        "2624, 656",
+        "2624, 676",
+        "2611, 676",
+        "2664, 656",
+        "2647, 656",
+        "2647, 676",
+        "2664, 676"
+      ],
+      "Name": "综1",
+      "NameCoord": "2684, 646",
+      "Id": 10697101414101,
+      "BizName": "综1"
+    },
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2156, 491",
+        "2126, 491",
+        "2146, 483",
+        "2146, 500",
+        "2159, 500",
+        "2110, 483",
+        "2126, 483",
+        "2126, 500",
+        "2110, 500"
+      ],
+      "Name": "安全线",
+      "NameCoord": "2044, 440",
+      "Id": 10698101414101,
+      "BizName": "安全线"
+    },
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2063, 332",
+        "2037, 332",
+        "2060, 323",
+        "2060, 342",
+        "2078, 342",
+        "2020, 323",
+        "2037, 323",
+        "2037, 342",
+        "2020, 342"
+      ],
+      "Name": "安全线",
+      "NameCoord": "1983, 288",
+      "Id": 10699101414102,
+      "BizName": "安全线"
+    },
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2534, 420",
+        "2561, 420",
+        "2539, 407",
+        "2539, 431",
+        "2520, 431",
+        "2580, 409",
+        "2561, 409",
+        "2561, 431",
+        "2580, 431"
+      ],
+      "Name": "综2",
+      "NameCoord": "2584, 404",
+      "Id": 10700101414102,
+      "BizName": "综2"
+    },
+    {
+      "Forward": true,
+      "Type": 0,
+      "Coord": [
+        "2534, 507",
+        "2560, 507",
+        "2537, 496",
+        "2537, 519",
+        "2519, 519",
+        "2579, 496",
+        "2560, 496",
+        "2560, 519",
+        "2579, 519"
+      ],
+      "Name": "综1",
+      "NameCoord": "2583, 493",
+      "Id": 10701101414102,
+      "BizName": "综1"
+    }
+  ],
+  "RailTurnouts": [
+    {
+      "Name": "14",
+      "NameCoord": "2093, 534",
+      "StartRailCoord": ["2123, 574", "2120, 571", "1990, 571"],
+      "PositiveRailCoord": ["2143, 584", "2213, 584"],
+      "NegativeRailCoord": ["2143, 594", "2163, 614"],
+      "PositiveSwitchCoord": ["2133, 584", "2143, 584"],
+      "NegativeSwitchCoord": ["2133, 584", "2143, 594"],
+      "StartSwitchCoord": ["2133, 584", "2123, 574"],
+      "Type": 4,
+      "Towards": 1,
+      "Orient": 2,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10892101403101,
+      "BizName": "14"
+    },
+    {
+      "Name": "16",
+      "NameCoord": "2276, 540",
+      "StartRailCoord": ["2294, 584", "2354, 584"],
+      "PositiveRailCoord": ["2274, 584", "2211, 584"],
+      "NegativeRailCoord": ["2274, 574", "2191, 491", "2156, 491"],
+      "PositiveSwitchCoord": ["2284, 584", "2274, 584"],
+      "NegativeSwitchCoord": ["2284, 584", "2274, 574"],
+      "StartSwitchCoord": ["2284, 584", "2294, 584"],
+      "Type": 2,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10893101403101,
+      "BizName": "16"
+    },
+    {
+      "Name": "3",
+      "NameCoord": "956, 709",
+      "StartRailCoord": ["981, 741", "1031, 741"],
+      "PositiveRailCoord": ["961, 741", "770, 741"],
+      "NegativeRailCoord": ["961, 751", "929, 784"],
+      "PositiveSwitchCoord": ["971, 741", "961, 741"],
+      "NegativeSwitchCoord": ["971, 741", "961, 751"],
+      "StartSwitchCoord": ["971, 741", "981, 741"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10894101403101,
+      "BizName": "3"
+    },
+    {
+      "Name": "1",
+      "NameCoord": "876, 827",
+      "StartRailCoord": ["876, 827", "761, 827"],
+      "PositiveRailCoord": ["896, 827", "946, 827"],
+      "NegativeRailCoord": ["896, 817", "930, 783"],
+      "PositiveSwitchCoord": ["886, 827", "896, 827"],
+      "NegativeSwitchCoord": ["886, 827", "896, 817"],
+      "StartSwitchCoord": ["886, 827", "876, 827"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10895101403101,
+      "BizName": "1"
+    },
+    {
+      "Name": "5",
+      "NameCoord": "980, 791",
+      "StartRailCoord": ["982, 827", "949, 827"],
+      "PositiveRailCoord": ["1002, 827", "1476, 827"],
+      "NegativeRailCoord": ["1002, 836", "1076, 913"],
+      "PositiveSwitchCoord": ["991, 827", "1002, 827"],
+      "NegativeSwitchCoord": ["991, 827", "1002, 836"],
+      "StartSwitchCoord": ["991, 827", "982, 827"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10896101403101,
+      "BizName": "5"
+    },
+    {
+      "Name": "7",
+      "NameCoord": "1124, 876",
+      "StartRailCoord": ["1107, 913", "1078, 913"],
+      "PositiveRailCoord": ["1127, 913", "1476, 913"],
+      "NegativeRailCoord": ["1127, 924", "1164, 960"],
+      "PositiveSwitchCoord": ["1116, 913", "1127, 913"],
+      "NegativeSwitchCoord": ["1116, 913", "1127, 924"],
+      "StartSwitchCoord": ["1116, 913", "1107, 913"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10897101403101,
+      "BizName": "7"
+    },
+    {
+      "Name": "8",
+      "NameCoord": "2203, 877",
+      "StartRailCoord": ["2251, 913", "2279, 913"],
+      "PositiveRailCoord": ["2231, 913", "1991, 913"],
+      "NegativeRailCoord": ["2231, 923", "2194, 960"],
+      "PositiveSwitchCoord": ["2241, 913", "2231, 913"],
+      "NegativeSwitchCoord": ["2241, 913", "2231, 923"],
+      "StartSwitchCoord": ["2241, 913", "2251, 913"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10898101403101,
+      "BizName": "8"
+    },
+    {
+      "Name": "6",
+      "NameCoord": "2349, 791",
+      "StartRailCoord": ["2373, 827", "2423, 827"],
+      "PositiveRailCoord": ["2353, 827", "1991, 827"],
+      "NegativeRailCoord": ["2353, 837", "2277, 913"],
+      "PositiveSwitchCoord": ["2363, 827", "2353, 827"],
+      "NegativeSwitchCoord": ["2363, 827", "2353, 837"],
+      "StartSwitchCoord": ["2363, 827", "2373, 827"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10899101403101,
+      "BizName": "6"
+    },
+    {
+      "Name": "2",
+      "NameCoord": "2514, 827",
+      "StartRailCoord": ["2537, 827", "2763, 827"],
+      "PositiveRailCoord": ["2517, 827", "2421, 827"],
+      "NegativeRailCoord": ["2517, 817", "2486, 786"],
+      "PositiveSwitchCoord": ["2527, 827", "2517, 827"],
+      "NegativeSwitchCoord": ["2527, 827", "2517, 817"],
+      "StartSwitchCoord": ["2527, 827", "2537, 827"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10900101403101,
+      "BizName": "2"
+    },
+    {
+      "Name": "4",
+      "NameCoord": "2430, 704",
+      "StartRailCoord": ["2431, 741", "2397, 741"],
+      "PositiveRailCoord": ["2451, 741", "2764, 741"],
+      "NegativeRailCoord": ["2451, 751", "2484, 784"],
+      "PositiveSwitchCoord": ["2441, 741", "2451, 741"],
+      "NegativeSwitchCoord": ["2441, 741", "2451, 751"],
+      "StartSwitchCoord": ["2441, 741", "2431, 741"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10901101403101,
+      "BizName": "4"
+    },
+    {
+      "Name": "10",
+      "NameCoord": "2334, 744",
+      "StartRailCoord": ["2361, 741", "2394, 741"],
+      "PositiveRailCoord": ["2341, 741", "1991, 741"],
+      "NegativeRailCoord": ["2341, 731", "2264, 654"],
+      "PositiveSwitchCoord": ["2351, 741", "2341, 741"],
+      "NegativeSwitchCoord": ["2351, 741", "2341, 731"],
+      "StartSwitchCoord": ["2351, 741", "2361, 741"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10902101403101,
+      "BizName": "10"
+    },
+    {
+      "Name": "18",
+      "NameCoord": "2367, 544",
+      "StartRailCoord": ["2377, 584", "2354, 584"],
+      "PositiveRailCoord": ["2397, 584", "2517, 584"],
+      "NegativeRailCoord": ["2397, 594", "2469, 666", "2510, 666"],
+      "PositiveSwitchCoord": ["2387, 584", "2397, 584"],
+      "NegativeSwitchCoord": ["2387, 584", "2397, 594"],
+      "StartSwitchCoord": ["2387, 584", "2377, 584"],
+      "Type": 2,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10903101403101,
+      "BizName": "18"
+    },
+    {
+      "Name": "12",
+      "NameCoord": "2164, 666",
+      "StartRailCoord": ["2214, 656", "2267, 656"],
+      "PositiveRailCoord": ["2194, 656", "1989, 656"],
+      "NegativeRailCoord": ["2194, 646", "2163, 614"],
+      "PositiveSwitchCoord": ["2204, 656", "2194, 656"],
+      "NegativeSwitchCoord": ["2204, 656", "2194, 646"],
+      "StartSwitchCoord": ["2204, 656", "2214, 656"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10904101403101,
+      "BizName": "12"
+    },
+    {
+      "Name": "9",
+      "NameCoord": "1091, 741",
+      "StartRailCoord": ["1091, 741", "1030, 741"],
+      "PositiveRailCoord": ["1111, 741", "1481, 741"],
+      "NegativeRailCoord": ["1111, 731", "1189, 654"],
+      "PositiveSwitchCoord": ["1101, 741", "1111, 741"],
+      "NegativeSwitchCoord": ["1101, 741", "1111, 731"],
+      "StartSwitchCoord": ["1101, 741", "1091, 741"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10905101403101,
+      "BizName": "9"
+    },
+    {
+      "Name": "11",
+      "NameCoord": "1206, 666",
+      "StartRailCoord": ["1216, 656", "1186, 656"],
+      "PositiveRailCoord": ["1236, 656", "1476, 656"],
+      "NegativeRailCoord": ["1236, 646", "1273, 609"],
+      "PositiveSwitchCoord": ["1226, 656", "1236, 656"],
+      "NegativeSwitchCoord": ["1226, 656", "1236, 646"],
+      "StartSwitchCoord": ["1226, 656", "1216, 656"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10906101403101,
+      "BizName": "11"
+    },
+    {
+      "Name": "3",
+      "NameCoord": "931, 552",
+      "StartRailCoord": ["962, 583", "1014, 583"],
+      "PositiveRailCoord": ["943, 583", "752, 583"],
+      "NegativeRailCoord": ["943, 592", "908, 628"],
+      "PositiveSwitchCoord": ["952, 583", "943, 583"],
+      "NegativeSwitchCoord": ["952, 583", "943, 592"],
+      "StartSwitchCoord": ["952, 583", "962, 583"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10894101403102,
+      "BizName": "3"
+    },
+    {
+      "Name": "7",
+      "NameCoord": "1101, 724",
+      "StartRailCoord": ["1091, 754", "1060, 754"],
+      "PositiveRailCoord": ["1111, 754", "1461, 754"],
+      "NegativeRailCoord": ["1111, 764", "1144, 799"],
+      "PositiveSwitchCoord": ["1101, 754", "1111, 754"],
+      "NegativeSwitchCoord": ["1101, 754", "1111, 764"],
+      "StartSwitchCoord": ["1101, 754", "1091, 754"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10897101403102,
+      "BizName": "7"
+    },
+    {
+      "Name": "1",
+      "NameCoord": "864, 674",
+      "StartRailCoord": ["857, 669", "751, 669"],
+      "PositiveRailCoord": ["874, 669", "929, 669"],
+      "NegativeRailCoord": ["874, 660", "909, 629"],
+      "PositiveSwitchCoord": ["866, 669", "874, 669"],
+      "NegativeSwitchCoord": ["866, 669", "874, 660"],
+      "StartSwitchCoord": ["866, 669", "857, 669"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10895101403102,
+      "BizName": "1"
+    },
+    {
+      "Name": "11",
+      "NameCoord": "1197, 503",
+      "StartRailCoord": ["1200, 497", "1169, 497"],
+      "PositiveRailCoord": ["1218, 497", "1462, 497"],
+      "NegativeRailCoord": ["1218, 488", "1260, 446"],
+      "PositiveSwitchCoord": ["1209, 497", "1218, 497"],
+      "NegativeSwitchCoord": ["1209, 497", "1218, 488"],
+      "StartSwitchCoord": ["1209, 497", "1200, 497"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10906101403102,
+      "BizName": "11"
+    },
+    {
+      "Name": "5",
+      "NameCoord": "964, 639",
+      "StartRailCoord": ["964, 669", "929, 669"],
+      "PositiveRailCoord": ["983, 669", "1461, 669"],
+      "NegativeRailCoord": ["983, 679", "1060, 754"],
+      "PositiveSwitchCoord": ["974, 669", "983, 669"],
+      "NegativeSwitchCoord": ["974, 669", "983, 679"],
+      "StartSwitchCoord": ["974, 669", "964, 669"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10896101403102,
+      "BizName": "5"
+    },
+    {
+      "Name": "9",
+      "NameCoord": "1081, 589",
+      "StartRailCoord": ["1074, 583", "1011, 583"],
+      "PositiveRailCoord": ["1094, 583", "1461, 583"],
+      "NegativeRailCoord": ["1094, 574", "1171, 494"],
+      "PositiveSwitchCoord": ["1084, 583", "1094, 583"],
+      "NegativeSwitchCoord": ["1084, 583", "1094, 574"],
+      "StartSwitchCoord": ["1084, 583", "1074, 583"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10905101403102,
+      "BizName": "9"
+    },
+    {
+      "Name": "14",
+      "NameCoord": "2009, 380",
+      "StartRailCoord": ["2029, 411", "2027, 409", "1897, 409"],
+      "PositiveRailCoord": ["2049, 420", "2127, 420"],
+      "NegativeRailCoord": ["2049, 429", "2071, 453"],
+      "PositiveSwitchCoord": ["2039, 420", "2049, 420"],
+      "NegativeSwitchCoord": ["2039, 420", "2049, 429"],
+      "StartSwitchCoord": ["2039, 420", "2029, 411"],
+      "Type": 4,
+      "Towards": 1,
+      "Orient": 2,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10892101403102,
+      "BizName": "14"
+    },
+    {
+      "Name": "12",
+      "NameCoord": "2083, 497",
+      "StartRailCoord": ["2123, 497", "2184, 497"],
+      "PositiveRailCoord": ["2104, 497", "1901, 497"],
+      "NegativeRailCoord": ["2104, 487", "2071, 453"],
+      "PositiveSwitchCoord": ["2113, 497", "2104, 497"],
+      "NegativeSwitchCoord": ["2113, 497", "2104, 487"],
+      "StartSwitchCoord": ["2113, 497", "2123, 497"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10904101403102,
+      "BizName": "12"
+    },
+    {
+      "Name": "10",
+      "NameCoord": "2239, 583",
+      "StartRailCoord": ["2279, 583", "2309, 583"],
+      "PositiveRailCoord": ["2259, 583", "1901, 583"],
+      "NegativeRailCoord": ["2259, 573", "2183, 497"],
+      "PositiveSwitchCoord": ["2269, 583", "2259, 583"],
+      "NegativeSwitchCoord": ["2269, 583", "2259, 573"],
+      "StartSwitchCoord": ["2269, 583", "2279, 583"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10902101403102,
+      "BizName": "10"
+    },
+    {
+      "Name": "4",
+      "NameCoord": "2344, 553",
+      "StartRailCoord": ["2346, 583", "2309, 583"],
+      "PositiveRailCoord": ["2364, 583", "2636, 583"],
+      "NegativeRailCoord": ["2364, 591", "2400, 626"],
+      "PositiveSwitchCoord": ["2354, 583", "2364, 583"],
+      "NegativeSwitchCoord": ["2354, 583", "2364, 591"],
+      "StartSwitchCoord": ["2354, 583", "2346, 583"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10901101403102,
+      "BizName": "4"
+    },
+    {
+      "Name": "2",
+      "NameCoord": "2430, 669",
+      "StartRailCoord": ["2449, 669", "2634, 669"],
+      "PositiveRailCoord": ["2431, 669", "2336, 669"],
+      "NegativeRailCoord": ["2431, 659", "2399, 626"],
+      "PositiveSwitchCoord": ["2440, 669", "2431, 669"],
+      "NegativeSwitchCoord": ["2440, 669", "2431, 659"],
+      "StartSwitchCoord": ["2440, 669", "2449, 669"],
+      "Type": 1,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10900101403102,
+      "BizName": "2"
+    },
+    {
+      "Name": "6",
+      "NameCoord": "2256, 639",
+      "StartRailCoord": ["2286, 669", "2333, 669"],
+      "PositiveRailCoord": ["2267, 669", "1899, 669"],
+      "NegativeRailCoord": ["2267, 677", "2193, 754"],
+      "PositiveSwitchCoord": ["2276, 669", "2267, 669"],
+      "NegativeSwitchCoord": ["2276, 669", "2267, 677"],
+      "StartSwitchCoord": ["2276, 669", "2286, 669"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10899101403102,
+      "BizName": "6"
+    },
+    {
+      "Name": "8",
+      "NameCoord": "2119, 724",
+      "StartRailCoord": ["2159, 754", "2194, 754"],
+      "PositiveRailCoord": ["2140, 754", "1900, 754"],
+      "NegativeRailCoord": ["2140, 763", "2101, 801"],
+      "PositiveSwitchCoord": ["2149, 754", "2140, 754"],
+      "NegativeSwitchCoord": ["2149, 754", "2140, 763"],
+      "StartSwitchCoord": ["2149, 754", "2159, 754"],
+      "Type": 1,
+      "Towards": 2,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10898101403102,
+      "BizName": "8"
+    },
+    {
+      "Name": "16",
+      "NameCoord": "2181, 390",
+      "StartRailCoord": ["2201, 420", "2254, 420"],
+      "PositiveRailCoord": ["2183, 420", "2124, 420"],
+      "NegativeRailCoord": ["2183, 411", "2104, 331", "2063, 331"],
+      "PositiveSwitchCoord": ["2191, 420", "2183, 420"],
+      "NegativeSwitchCoord": ["2191, 420", "2183, 411"],
+      "StartSwitchCoord": ["2191, 420", "2201, 420"],
+      "Type": 2,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 1,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10893101403102,
+      "BizName": "16"
+    },
+    {
+      "Name": "18",
+      "NameCoord": "2290, 390",
+      "StartRailCoord": ["2291, 420", "2251, 420"],
+      "PositiveRailCoord": ["2309, 420", "2431, 420"],
+      "NegativeRailCoord": ["2309, 429", "2387, 507", "2429, 507"],
+      "PositiveSwitchCoord": ["2300, 420", "2309, 420"],
+      "NegativeSwitchCoord": ["2300, 420", "2309, 429"],
+      "StartSwitchCoord": ["2300, 420", "2291, 420"],
+      "Type": 2,
+      "Towards": 1,
+      "Orient": 1,
+      "NegativeRailMode": 2,
+      "IsOpposite": false,
+      "UnderCoord": [],
+      "Id": 10903101403102,
+      "BizName": "18"
+    }
+  ],
+  "RailInSta": [
+    {
+      "Type": 2,
+      "Name": "5G",
+      "NameCoord": "1576, 521",
+      "Coord": ["1476, 571", "1990, 571"],
+      "TrainTextCoord": "1129, 388",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10869101402101,
+      "BizName": "5G"
+    },
+    {
+      "Type": 2,
+      "Name": "3G",
+      "NameCoord": "1576, 606",
+      "Coord": ["1476, 656", "1990, 656"],
+      "TrainTextCoord": "1129, 447",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10870101402101,
+      "BizName": "3G"
+    },
+    {
+      "Type": 2,
+      "Name": "IG",
+      "NameCoord": "1576, 691",
+      "Coord": ["1476, 741", "1990, 741"],
+      "TrainTextCoord": "1129, 507",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10871101402101,
+      "BizName": "IG"
+    },
+    {
+      "Type": 2,
+      "Name": "IIG",
+      "NameCoord": "1569, 777",
+      "Coord": ["1476, 827", "1990, 827"],
+      "TrainTextCoord": "1129, 567",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10872101402101,
+      "BizName": "IIG"
+    },
+    {
+      "Type": 2,
+      "Name": "4G",
+      "NameCoord": "1576, 863",
+      "Coord": ["1476, 913", "1990, 913"],
+      "TrainTextCoord": "1129, 627",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10873101402101,
+      "BizName": "4G"
+    },
+    {
+      "Type": 2,
+      "Name": "6G",
+      "NameCoord": "1576, 949",
+      "Coord": ["1476, 999", "1990, 999"],
+      "TrainTextCoord": "1129, 687",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10874101402101,
+      "BizName": "6G"
+    },
+    {
+      "Type": 2,
+      "Name": "5G",
+      "NameCoord": "1560, 368",
+      "Coord": ["1462, 409", "1900, 409"],
+      "TrainTextCoord": "1092, 274",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10869101402102,
+      "BizName": "5G"
+    },
+    {
+      "Type": 2,
+      "Name": "3G",
+      "NameCoord": "1560, 455",
+      "Coord": ["1462, 497", "1900, 497"],
+      "TrainTextCoord": "1092, 336",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10870101402102,
+      "BizName": "3G"
+    },
+    {
+      "Type": 2,
+      "Name": "IG",
+      "NameCoord": "1560, 542",
+      "Coord": ["1462, 583", "1900, 583"],
+      "TrainTextCoord": "1092, 396",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10871101402102,
+      "BizName": "IG"
+    },
+    {
+      "Type": 2,
+      "Name": "IIG",
+      "NameCoord": "1552, 628",
+      "Coord": ["1462, 669", "1900, 669"],
+      "TrainTextCoord": "1092, 456",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10872101402102,
+      "BizName": "IIG"
+    },
+    {
+      "Type": 2,
+      "Name": "4G",
+      "NameCoord": "1560, 714",
+      "Coord": ["1462, 755", "1900, 755"],
+      "TrainTextCoord": "1092, 516",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10873101402102,
+      "BizName": "4G"
+    },
+    {
+      "Type": 2,
+      "Name": "6G",
+      "NameCoord": "1560, 800",
+      "Coord": ["1462, 842", "1900, 842"],
+      "TrainTextCoord": "1092, 577",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": null,
+      "Id": 10874101402102,
+      "BizName": "6G"
+    },
+    {
+      "Type": 0,
+      "Name": "7DGA",
+      "NameCoord": "1314, 970",
+      "Coord": ["1164, 960", "1203, 999", "1479, 999"],
+      "TrainTextCoord": "745, 660",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10875101400101,
+      "BizName": "7DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "8DGA",
+      "NameCoord": "2039, 1006",
+      "Coord": ["1991, 999", "2156, 999", "2191, 963"],
+      "TrainTextCoord": "1368, 687",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10876101400101,
+      "BizName": "8DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "D2G",
+      "NameCoord": "2540, 549",
+      "Coord": ["2516, 584", "2596, 584"],
+      "TrainTextCoord": "1705, 397",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10877101400101,
+      "BizName": "D2G"
+    },
+    {
+      "Type": 0,
+      "Name": "D4G",
+      "NameCoord": "2540, 631",
+      "Coord": ["2513, 666", "2606, 666"],
+      "TrainTextCoord": "1708, 454",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10878101400101,
+      "BizName": "D4G"
+    },
+    {
+      "Type": 0,
+      "Name": "11DGA",
+      "NameCoord": "1333, 529",
+      "Coord": ["1273, 609", "1310, 571", "1476, 571"],
+      "TrainTextCoord": "820, 414",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10879101400101,
+      "BizName": "11DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "11DGA",
+      "NameCoord": "1333, 377",
+      "Coord": ["1257, 449", "1299, 409", "1461, 409"],
+      "TrainTextCoord": "811, 302",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10879101400102,
+      "BizName": "11DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "7DGA",
+      "NameCoord": "1273, 847",
+      "Coord": ["1144, 799", "1183, 841", "1463, 841"],
+      "TrainTextCoord": "731, 547",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10875101400102,
+      "BizName": "7DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "8DGA",
+      "NameCoord": "1961, 843",
+      "Coord": ["1900, 841", "2061, 841", "2101, 801"],
+      "TrainTextCoord": "1303, 577",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10876101400102,
+      "BizName": "8DGA"
+    },
+    {
+      "Type": 0,
+      "Name": "D2G",
+      "NameCoord": "2453, 394",
+      "Coord": ["2431, 420", "2537, 420"],
+      "TrainTextCoord": "1655, 282",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10877101400102,
+      "BizName": "D2G"
+    },
+    {
+      "Type": 0,
+      "Name": "D4G",
+      "NameCoord": "2451, 480",
+      "Coord": ["2429, 507", "2534, 507"],
+      "TrainTextCoord": "1653, 343",
+      "DrawTrainUp": true,
+      "UpgoingToLeft": true,
+      "UnderCoord": [],
+      "Id": 10878101400102,
+      "BizName": "D4G"
+    }
+  ],
+  "Lamp": [
+    {
+      "Name": "XII",
+      "NameCoord": "1990, 773",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 799",
+      "IsIntoSta": false,
+      "Id": 10851101404101,
+      "BizName": "XII"
+    },
+    {
+      "Name": "SII",
+      "NameCoord": "1441, 856",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 837",
+      "IsIntoSta": false,
+      "Id": 10852101404101,
+      "BizName": "SII"
+    },
+    {
+      "Name": "XI",
+      "NameCoord": "1990, 687",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 713",
+      "IsIntoSta": false,
+      "Id": 10853101404101,
+      "BizName": "XI"
+    },
+    {
+      "Name": "SI",
+      "NameCoord": "1444, 770",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 751",
+      "IsIntoSta": false,
+      "Id": 10854101404101,
+      "BizName": "SI"
+    },
+    {
+      "Name": "X",
+      "NameCoord": "756, 676",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "766, 716",
+      "IsIntoSta": true,
+      "Id": 10855101404101,
+      "BizName": "X"
+    },
+    {
+      "Name": "XF",
+      "NameCoord": "767, 866",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "767, 839",
+      "IsIntoSta": true,
+      "Id": 10856101404101,
+      "BizName": "XF"
+    },
+    {
+      "Name": "X3",
+      "NameCoord": "1990, 601",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 627",
+      "IsIntoSta": false,
+      "Id": 10857101404101,
+      "BizName": "X3"
+    },
+    {
+      "Name": "S3",
+      "NameCoord": "1444, 684",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 666",
+      "IsIntoSta": false,
+      "Id": 10858101404101,
+      "BizName": "S3"
+    },
+    {
+      "Name": "X5",
+      "NameCoord": "1990, 517",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 543",
+      "IsIntoSta": false,
+      "Id": 10859101404101,
+      "BizName": "X5"
+    },
+    {
+      "Name": "S5",
+      "NameCoord": "1444, 600",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 581",
+      "IsIntoSta": false,
+      "Id": 10860101404101,
+      "BizName": "S5"
+    },
+    {
+      "Name": "SF",
+      "NameCoord": "2747, 676",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "2766, 714",
+      "IsIntoSta": true,
+      "Id": 10861101404101,
+      "BizName": "SF"
+    },
+    {
+      "Name": "S",
+      "NameCoord": "2751, 860",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "2763, 836",
+      "IsIntoSta": true,
+      "Id": 10862101404101,
+      "BizName": "S"
+    },
+    {
+      "Name": "D2",
+      "NameCoord": "2494, 609",
+      "Type": 1,
+      "IsUpgoing": true,
+      "VLineCoord": "2516, 589",
+      "IsIntoSta": false,
+      "Id": 10863101404101,
+      "BizName": "D2"
+    },
+    {
+      "Name": "D4",
+      "NameCoord": "2491, 696",
+      "Type": 1,
+      "IsUpgoing": true,
+      "VLineCoord": "2511, 676",
+      "IsIntoSta": false,
+      "Id": 10864101404101,
+      "BizName": "D4"
+    },
+    {
+      "Name": "S5",
+      "NameCoord": "1429, 438",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 420",
+      "IsIntoSta": false,
+      "Id": 10860101404102,
+      "BizName": "S5"
+    },
+    {
+      "Name": "X5",
+      "NameCoord": "1900, 355",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 382",
+      "IsIntoSta": false,
+      "Id": 10859101404102,
+      "BizName": "X5"
+    },
+    {
+      "Name": "S3",
+      "NameCoord": "1429, 526",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 508",
+      "IsIntoSta": false,
+      "Id": 10858101404102,
+      "BizName": "S3"
+    },
+    {
+      "Name": "X3",
+      "NameCoord": "1900, 443",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 469",
+      "IsIntoSta": false,
+      "Id": 10857101404102,
+      "BizName": "X3"
+    },
+    {
+      "Name": "SI",
+      "NameCoord": "1429, 612",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 594",
+      "IsIntoSta": false,
+      "Id": 10854101404102,
+      "BizName": "SI"
+    },
+    {
+      "Name": "XI",
+      "NameCoord": "1900, 529",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 555",
+      "IsIntoSta": false,
+      "Id": 10853101404102,
+      "BizName": "XI"
+    },
+    {
+      "Name": "SII",
+      "NameCoord": "1417, 698",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 680",
+      "IsIntoSta": false,
+      "Id": 10852101404102,
+      "BizName": "SII"
+    },
+    {
+      "Name": "XII",
+      "NameCoord": "1900, 615",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 642",
+      "IsIntoSta": false,
+      "Id": 10851101404102,
+      "BizName": "XII"
+    },
+    {
+      "Name": "S4",
+      "NameCoord": "1429, 785",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 766",
+      "IsIntoSta": false,
+      "Id": 10865101404102,
+      "BizName": "S4"
+    },
+    {
+      "Name": "X4",
+      "NameCoord": "1900, 702",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 728",
+      "IsIntoSta": false,
+      "Id": 10866101404102,
+      "BizName": "X4"
+    },
+    {
+      "Name": "S6",
+      "NameCoord": "1429, 871",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1462, 852",
+      "IsIntoSta": false,
+      "Id": 10867101404102,
+      "BizName": "S6"
+    },
+    {
+      "Name": "X6",
+      "NameCoord": "1900, 788",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1900, 814",
+      "IsIntoSta": false,
+      "Id": 10868101404102,
+      "BizName": "X6"
+    },
+    {
+      "Name": "D2",
+      "NameCoord": "2403, 447",
+      "Type": 1,
+      "IsUpgoing": true,
+      "VLineCoord": "2431, 426",
+      "IsIntoSta": false,
+      "Id": 10863101404102,
+      "BizName": "D2"
+    },
+    {
+      "Name": "D4",
+      "NameCoord": "2401, 540",
+      "Type": 1,
+      "IsUpgoing": true,
+      "VLineCoord": "2429, 518",
+      "IsIntoSta": false,
+      "Id": 10864101404102,
+      "BizName": "D4"
+    },
+    {
+      "Name": "SF",
+      "NameCoord": "2640, 517",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "2637, 554",
+      "IsIntoSta": true,
+      "Id": 10861101404102,
+      "BizName": "SF"
+    },
+    {
+      "Name": "S",
+      "NameCoord": "2625, 703",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "2635, 677",
+      "IsIntoSta": true,
+      "Id": 10862101404102,
+      "BizName": "S"
+    },
+    {
+      "Name": "X",
+      "NameCoord": "735, 520",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "751, 554",
+      "IsIntoSta": true,
+      "Id": 10855101404102,
+      "BizName": "X"
+    },
+    {
+      "Name": "XF",
+      "NameCoord": "709, 709",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "752, 679",
+      "IsIntoSta": true,
+      "Id": 10856101404102,
+      "BizName": "XF"
+    },
+    {
+      "Name": "S4",
+      "NameCoord": "1444, 941",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 923",
+      "IsIntoSta": false,
+      "Id": 10865101404101,
+      "BizName": "S4"
+    },
+    {
+      "Name": "X4",
+      "NameCoord": "1990, 859",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 884",
+      "IsIntoSta": false,
+      "Id": 10866101404101,
+      "BizName": "X4"
+    },
+    {
+      "Name": "S6",
+      "NameCoord": "1444, 1027",
+      "Type": 0,
+      "IsUpgoing": true,
+      "VLineCoord": "1476, 1009",
+      "IsIntoSta": false,
+      "Id": 10867101404101,
+      "BizName": "S6"
+    },
+    {
+      "Name": "X6",
+      "NameCoord": "1990, 944",
+      "Type": 0,
+      "IsUpgoing": false,
+      "VLineCoord": "1990, 970",
+      "IsIntoSta": false,
+      "Id": 10868101404101,
+      "BizName": "X6"
+    }
+  ],
+  "LampCtrlModes": [
+    {
+      "Name": "非常站控",
+      "NameCoord": "1591, 176",
+      "Coord": "1631, 146",
+      "ControlMode": 0,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10708101416101,
+      "BizName": "非常站控(S_0)"
+    },
+    {
+      "Name": "自律机通信",
+      "NameCoord": "1597, 274",
+      "Coord": "1653, 244",
+      "ControlMode": 7,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10709101416101,
+      "BizName": "自律机通信(S_0)"
+    },
+    {
+      "Name": "按图排路",
+      "NameCoord": "1744, 176",
+      "Coord": "1784, 146",
+      "ControlMode": 4,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10710101416101,
+      "BizName": "按图排路(S_0)"
+    },
+    {
+      "Name": "计划控制",
+      "NameCoord": "1891, 176",
+      "Coord": "1931, 146",
+      "ControlMode": 5,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10711101416101,
+      "BizName": "计划控制(S_0)"
+    },
+    {
+      "Name": "中心通信",
+      "NameCoord": "1459, 274",
+      "Coord": "1494, 244",
+      "ControlMode": 7,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10712101416101,
+      "BizName": "中心通信(S_0)"
+    },
+    {
+      "Name": "允许转回",
+      "NameCoord": "1774, 277",
+      "Coord": "1819, 246",
+      "ControlMode": 7,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10713101416101,
+      "BizName": "允许转回(S_0)"
+    },
+    {
+      "Name": "列控",
+      "NameCoord": "1919, 279",
+      "Coord": "1939, 246",
+      "ControlMode": 5,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10714101416101,
+      "BizName": "列控(S_0)"
+    },
+    {
+      "Name": "分散自律",
+      "NameCoord": "1434, 176",
+      "Coord": "1474, 146",
+      "ControlMode": 2,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10715101416101,
+      "BizName": "分散自律(S_0)"
+    },
+    {
+      "Name": "列控",
+      "NameCoord": "1964, 244",
+      "Coord": "1984, 214",
+      "ControlMode": 5,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10716101416102,
+      "BizName": "列控(S_0)"
+    },
+    {
+      "Name": "分散自律",
+      "NameCoord": "1219, 244",
+      "Coord": "1259, 214",
+      "ControlMode": 2,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10717101416102,
+      "BizName": "分散自律(S_0)"
+    },
+    {
+      "Name": "非常站控",
+      "NameCoord": "1370, 241",
+      "Coord": "1410, 211",
+      "ControlMode": 0,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10718101416102,
+      "BizName": "非常站控(S_0)"
+    },
+    {
+      "Name": "自律机通信",
+      "NameCoord": "1514, 243",
+      "Coord": "1570, 213",
+      "ControlMode": 7,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10719101416102,
+      "BizName": "自律机通信(S_0)"
+    },
+    {
+      "Name": "按图排路",
+      "NameCoord": "1691, 243",
+      "Coord": "1731, 213",
+      "ControlMode": 4,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10720101416102,
+      "BizName": "按图排路(S_0)"
+    },
+    {
+      "Name": "计划控制",
+      "NameCoord": "1831, 244",
+      "Coord": "1871, 214",
+      "ControlMode": 5,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10721101416102,
+      "BizName": "计划控制(S_0)"
+    },
+    {
+      "Name": "上行侧线限速4",
+      "NameCoord": "2175, 834",
+      "Coord": "2260, 803",
+      "ControlMode": -1,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10722101416102,
+      "BizName": "上行侧线限速4"
+    },
+    {
+      "Name": "区间",
+      "NameCoord": "599, 126",
+      "Coord": "619, 96",
+      "ControlMode": 11,
+      "OrientType": 2,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10723101416101,
+      "BizName": "区间(X_1011)"
+    },
+    {
+      "Name": "辅助",
+      "NameCoord": "687, 126",
+      "Coord": "707, 96",
+      "ControlMode": 12,
+      "OrientType": 2,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10724101416101,
+      "BizName": "辅助(X_1011)"
+    },
+    {
+      "Name": "区轨",
+      "NameCoord": "759, 127",
+      "Coord": "779, 97",
+      "ControlMode": 12,
+      "OrientType": 2,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10725101416101,
+      "BizName": "区轨(X_1011)"
+    },
+    {
+      "Name": "允许发车",
+      "NameCoord": "823, 129",
+      "Coord": "863, 99",
+      "ControlMode": 17,
+      "OrientType": 2,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10726101416101,
+      "BizName": "允许发车(X_1011)"
+    },
+    {
+      "Name": "区间",
+      "NameCoord": "2701, 134",
+      "Coord": "2721, 104",
+      "ControlMode": 11,
+      "OrientType": 1,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10727101416101,
+      "BizName": "区间(SN_1015)"
+    },
+    {
+      "Name": "辅助",
+      "NameCoord": "2770, 134",
+      "Coord": "2790, 104",
+      "ControlMode": 12,
+      "OrientType": 1,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10728101416101,
+      "BizName": "辅助(SN_1015)"
+    },
+    {
+      "Name": "区轨",
+      "NameCoord": "2833, 134",
+      "Coord": "2853, 104",
+      "ControlMode": 11,
+      "OrientType": 1,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10729101416101,
+      "BizName": "区轨(SN_1015)"
+    },
+    {
+      "Name": "允许发车",
+      "NameCoord": "2893, 134",
+      "Coord": "2930, 104",
+      "ControlMode": 17,
+      "OrientType": 1,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10730101416101,
+      "BizName": "允许发车(SN_1015)"
+    },
+    {
+      "Name": "主电源",
+      "NameCoord": "1622, 390",
+      "Coord": "1652, 350",
+      "ControlMode": 20,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10731101416101,
+      "BizName": "主电源"
+    },
+    {
+      "Name": "副电源",
+      "NameCoord": "1752, 390",
+      "Coord": "1782, 350",
+      "ControlMode": 24,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10732101416101,
+      "BizName": "副电源"
+    },
+    {
+      "Name": "下行侧线限速3",
+      "NameCoord": "1120, 499",
+      "Coord": "1180, 479",
+      "ControlMode": 9,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10733101416101,
+      "BizName": "下行侧线限速3"
+    },
+    {
+      "Name": "上行侧线限速4",
+      "NameCoord": "2350, 988",
+      "Coord": "2410, 968",
+      "ControlMode": 10,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10734101416101,
+      "BizName": "上行侧线限速4"
+    },
+    {
+      "Name": "X降级",
+      "NameCoord": "716, 596",
+      "Coord": "746, 556",
+      "ControlMode": 31,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10735101416101,
+      "BizName": "X降级"
+    },
+    {
+      "Name": "XF降级",
+      "NameCoord": "726, 1006",
+      "Coord": "756, 966",
+      "ControlMode": 31,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10736101416101,
+      "BizName": "XF降级"
+    },
+    {
+      "Name": "SF降级",
+      "NameCoord": "2756, 556",
+      "Coord": "2786, 516",
+      "ControlMode": 31,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10737101416101,
+      "BizName": "SF降级"
+    },
+    {
+      "Name": "S降级",
+      "NameCoord": "2766, 1006",
+      "Coord": "2796, 966",
+      "ControlMode": 31,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10738101416101,
+      "BizName": "S降级"
+    },
+    {
+      "Name": "X1JJ",
+      "NameCoord": "260, 594",
+      "Coord": "280, 564",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10739101416101,
+      "BizName": "X1JJ(S_0)"
+    },
+    {
+      "Name": "X2JJ",
+      "NameCoord": "330, 594",
+      "Coord": "350, 564",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10740101416101,
+      "BizName": "X2JJ(S_0)"
+    },
+    {
+      "Name": "XF1JJ",
+      "NameCoord": "290, 984",
+      "Coord": "310, 954",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10741101416101,
+      "BizName": "XF1JJ(S_0)"
+    },
+    {
+      "Name": "区间",
+      "NameCoord": "2701, 1324",
+      "Coord": "2721, 1294",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10742101416101,
+      "BizName": "区间(S_1015)"
+    },
+    {
+      "Name": "辅助",
+      "NameCoord": "2774, 1324",
+      "Coord": "2794, 1294",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10743101416101,
+      "BizName": "辅助(S_1015)"
+    },
+    {
+      "Name": "区轨",
+      "NameCoord": "2841, 1323",
+      "Coord": "2861, 1293",
+      "ControlMode": -1,
+      "OrientType": 0,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10744101416101,
+      "BizName": "区轨(S_1015)"
+    },
+    {
+      "Name": "允许发车",
+      "NameCoord": "2899, 1321",
+      "Coord": "2939, 1291",
+      "ControlMode": 17,
+      "OrientType": -1,
+      "OrientStageId": 1015,
+      "ArrowType": 0,
+      "Id": 10745101416101,
+      "BizName": "允许发车"
+    },
+    {
+      "Name": "区间",
+      "NameCoord": "559, 1324",
+      "Coord": "579, 1294",
+      "ControlMode": 11,
+      "OrientType": 3,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10746101416101,
+      "BizName": "区间(XN_1011)"
+    },
+    {
+      "Name": "辅助",
+      "NameCoord": "640, 1324",
+      "Coord": "660, 1294",
+      "ControlMode": 12,
+      "OrientType": 3,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10747101416101,
+      "BizName": "辅助(XN_1011)"
+    },
+    {
+      "Name": "区轨",
+      "NameCoord": "713, 1324",
+      "Coord": "733, 1294",
+      "ControlMode": 11,
+      "OrientType": 3,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10748101416101,
+      "BizName": "区轨(XN_1011)"
+    },
+    {
+      "Name": "允许发车",
+      "NameCoord": "769, 1324",
+      "Coord": "800, 1294",
+      "ControlMode": 17,
+      "OrientType": 3,
+      "OrientStageId": 1011,
+      "ArrowType": 0,
+      "Id": 10749101416101,
+      "BizName": "允许发车(XN_1011)"
+    },
+    {
+      "Name": "下行侧线限速3",
+      "NameCoord": "1049, 366",
+      "Coord": "1109, 336",
+      "ControlMode": 9,
+      "OrientType": -1,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10750101416102,
+      "BizName": "下行侧线限速3"
+    },
+    {
+      "Name": "监督区间",
+      "NameCoord": "4172, 1611",
+      "Coord": "4203, 1562",
+      "ControlMode": 11,
+      "OrientType": 0,
+      "OrientStageId": 0,
+      "ArrowType": 0,
+      "Id": 10751101416101,
+      "BizName": "监督区间(S_0)"
+    }
+  ],
+  "Labels": [
+    {
+      "Name": "非电化线路",
+      "NameCoord": "2195, 471",
+      "Id": 10817101419102,
+      "BizName": "非电化线路"
+    },
+    {
+      "Name": "西安北方面",
+      "NameCoord": "423, 417",
+      "Id": 10818101419102,
+      "BizName": "西安北方面"
+    },
+    {
+      "Name": "银川方面",
+      "NameCoord": "2853, 459",
+      "Id": 10819101419102,
+      "BizName": "银川方面"
+    },
+    {
+      "Name": "非电路化线路",
+      "NameCoord": "2326, 641",
+      "Id": 10820101419101,
+      "BizName": "非电路化线路"
+    },
+    {
+      "Name": "西安北方面",
+      "NameCoord": "70, 776",
+      "Id": 10821101419101,
+      "BizName": "西安北方面"
+    },
+    {
+      "Name": "银川方面",
+      "NameCoord": "3070, 779",
+      "Id": 10822101419101,
+      "BizName": "银川方面"
+    },
+    {
+      "Name": "3DG",
+      "NameCoord": "839, 704",
+      "Id": 10823101419101,
+      "BizName": "3DG"
+    },
+    {
+      "Name": "1DG",
+      "NameCoord": "901, 849",
+      "Id": 10824101419101,
+      "BizName": "1DG"
+    },
+    {
+      "Name": "11DG",
+      "NameCoord": "1319, 671",
+      "Id": 10825101419101,
+      "BizName": "11DG"
+    },
+    {
+      "Name": "7DG",
+      "NameCoord": "1313, 877",
+      "Id": 10826101419101,
+      "BizName": "7DG"
+    },
+    {
+      "Name": "12DG",
+      "NameCoord": "2079, 669",
+      "Id": 10827101419101,
+      "BizName": "12DG"
+    },
+    {
+      "Name": "10DG",
+      "NameCoord": "2274, 756",
+      "Id": 10828101419101,
+      "BizName": "10DG"
+    },
+    {
+      "Name": "6DG",
+      "NameCoord": "2273, 793",
+      "Id": 10829101419101,
+      "BizName": "6DG"
+    },
+    {
+      "Name": "8DG",
+      "NameCoord": "2089, 876",
+      "Id": 10830101419101,
+      "BizName": "8DG"
+    },
+    {
+      "Name": "2DG",
+      "NameCoord": "2437, 850",
+      "Id": 10831101419101,
+      "BizName": "2DG"
+    },
+    {
+      "Name": "4DG",
+      "NameCoord": "2409, 751",
+      "Id": 10832101419101,
+      "BizName": "4DG"
+    },
+    {
+      "Name": "9DG",
+      "NameCoord": "1116, 756",
+      "Id": 10833101419101,
+      "BizName": "9DG"
+    }
+  ],
+  "OprBtns": [
+    {
+      "Name": "总辅助",
+      "Type": 35,
+      "Coord": "461, 204",
+      "NameCoord": "424, 253",
+      "OrientType": 2,
+      "DispId": 1011,
+      "OprCountCoord": "454, 164",
+      "Id": 10752101417101,
+      "BizName": "总辅助(X_1011)(X_1011)"
+    },
+    {
+      "Name": "接车辅助",
+      "Type": 36,
+      "Coord": "581, 204",
+      "NameCoord": "530, 253",
+      "OrientType": 2,
+      "DispId": 1011,
+      "OprCountCoord": "574, 164",
+      "Id": 10753101417101,
+      "BizName": "接车辅助(X_1011)(X_1011)"
+    },
+    {
+      "Name": "发车辅助",
+      "Type": 37,
+      "Coord": "701, 204",
+      "NameCoord": "650, 253",
+      "OrientType": 2,
+      "DispId": 1011,
+      "OprCountCoord": "694, 164",
+      "Id": 10754101417101,
+      "BizName": "发车辅助(X_1011)(X_1011)"
+    },
+    {
+      "Name": "允许改方",
+      "Type": 42,
+      "Coord": "821, 204",
+      "NameCoord": "770, 253",
+      "OrientType": -1,
+      "DispId": 1011,
+      "OprCountCoord": "814, 164",
+      "Id": 10755101417101,
+      "BizName": "允许改方(X)"
+    },
+    {
+      "Name": "总辅助",
+      "Type": 35,
+      "Coord": "2651, 227",
+      "NameCoord": "2614, 276",
+      "OrientType": 1,
+      "DispId": 1015,
+      "OprCountCoord": "2644, 187",
+      "Id": 10756101417101,
+      "BizName": "总辅助(SN_1015)(SN_1015)"
+    },
+    {
+      "Name": "接车辅助",
+      "Type": 36,
+      "Coord": "2776, 227",
+      "NameCoord": "2724, 276",
+      "OrientType": 1,
+      "DispId": 1015,
+      "OprCountCoord": "2769, 187",
+      "Id": 10757101417101,
+      "BizName": "接车辅助(SN_1015)(SN_1015)"
+    },
+    {
+      "Name": "发车辅助",
+      "Type": 37,
+      "Coord": "2900, 227",
+      "NameCoord": "2849, 276",
+      "OrientType": 1,
+      "DispId": 1015,
+      "OprCountCoord": "2893, 187",
+      "Id": 10758101417101,
+      "BizName": "发车辅助(SN_1015)(SN_1015)"
+    },
+    {
+      "Name": "总辅助",
+      "Type": 35,
+      "Coord": "2561, 1396",
+      "NameCoord": "2524, 1447",
+      "OrientType": 0,
+      "DispId": 1015,
+      "OprCountCoord": "2554, 1356",
+      "Id": 10759101417101,
+      "BizName": "总辅助(S_1015)(S_1015)"
+    },
+    {
+      "Name": "接车辅助",
+      "Type": 36,
+      "Coord": "2681, 1396",
+      "NameCoord": "2630, 1447",
+      "OrientType": 0,
+      "DispId": 1015,
+      "OprCountCoord": "2674, 1356",
+      "Id": 10760101417101,
+      "BizName": "接车辅助(S_1015)(S_1015)"
+    },
+    {
+      "Name": "发车辅助",
+      "Type": 37,
+      "Coord": "2801, 1396",
+      "NameCoord": "2750, 1447",
+      "OrientType": 0,
+      "DispId": 1015,
+      "OprCountCoord": "2794, 1356",
+      "Id": 10761101417101,
+      "BizName": "发车辅助(S_1015)(S_1015)"
+    },
+    {
+      "Name": "允许改方",
+      "Type": 43,
+      "Coord": "2921, 1396",
+      "NameCoord": "2870, 1447",
+      "OrientType": -1,
+      "DispId": 1015,
+      "OprCountCoord": "2914, 1356",
+      "Id": 10762101417101,
+      "BizName": "允许改方(S)"
+    },
+    {
+      "Name": "总辅助",
+      "Type": 35,
+      "Coord": "504, 1419",
+      "NameCoord": "467, 1469",
+      "OrientType": 3,
+      "DispId": 1011,
+      "OprCountCoord": "497, 1379",
+      "Id": 10763101417101,
+      "BizName": "总辅助(XN_1011)(XN_1011)"
+    },
+    {
+      "Name": "接车辅助",
+      "Type": 36,
+      "Coord": "634, 1419",
+      "NameCoord": "583, 1469",
+      "OrientType": 3,
+      "DispId": 1011,
+      "OprCountCoord": "627, 1379",
+      "Id": 10764101417101,
+      "BizName": "接车辅助(XN_1011)(XN_1011)"
+    },
+    {
+      "Name": "发车辅助",
+      "Type": 37,
+      "Coord": "764, 1419",
+      "NameCoord": "713, 1469",
+      "OrientType": 3,
+      "DispId": 1011,
+      "OprCountCoord": "757, 1379",
+      "Id": 10765101417101,
+      "BizName": "发车辅助(XN_1011)(XN_1011)"
+    },
+    {
+      "Name": "S6引导",
+      "Type": 34,
+      "Coord": "1126, 1406",
+      "NameCoord": "1089, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1119, 1446",
+      "Id": 10766101417101,
+      "BizName": "S6引导"
+    },
+    {
+      "Name": "S5引导",
+      "Type": 34,
+      "Coord": "1226, 1406",
+      "NameCoord": "1189, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1219, 1446",
+      "Id": 10767101417101,
+      "BizName": "S5引导"
+    },
+    {
+      "Name": "S4引导",
+      "Type": 34,
+      "Coord": "1326, 1406",
+      "NameCoord": "1289, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1319, 1446",
+      "Id": 10768101417101,
+      "BizName": "S4引导"
+    },
+    {
+      "Name": "S3引导",
+      "Type": 34,
+      "Coord": "1426, 1406",
+      "NameCoord": "1389, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1419, 1446",
+      "Id": 10769101417101,
+      "BizName": "S3引导"
+    },
+    {
+      "Name": "X3引导",
+      "Type": 34,
+      "Coord": "1926, 1406",
+      "NameCoord": "1889, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1919, 1446",
+      "Id": 10770101417101,
+      "BizName": "X3引导"
+    },
+    {
+      "Name": "X6引导",
+      "Type": 34,
+      "Coord": "2226, 1406",
+      "NameCoord": "2189, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "2219, 1446",
+      "Id": 10771101417101,
+      "BizName": "X6引导"
+    },
+    {
+      "Name": "5心轨",
+      "Type": 38,
+      "Coord": "353, 1609",
+      "NameCoord": "321, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "346, 1569",
+      "Id": 10772101417101,
+      "BizName": "5心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "X5引导",
+      "Type": 34,
+      "Coord": "2126, 1406",
+      "NameCoord": "2089, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "2119, 1446",
+      "Id": 10773101417101,
+      "BizName": "X5引导"
+    },
+    {
+      "Name": "5尖轨",
+      "Type": 38,
+      "Coord": "471, 1609",
+      "NameCoord": "440, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "464, 1569",
+      "Id": 10774101417101,
+      "BizName": "5尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "X4引导",
+      "Type": 34,
+      "Coord": "2026, 1406",
+      "NameCoord": "1989, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "2019, 1446",
+      "Id": 10775101417101,
+      "BizName": "X4引导"
+    },
+    {
+      "Name": "SII引导",
+      "Type": 34,
+      "Coord": "1526, 1406",
+      "NameCoord": "1481, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1519, 1446",
+      "Id": 10776101417101,
+      "BizName": "SII引导"
+    },
+    {
+      "Name": "XII引导",
+      "Type": 34,
+      "Coord": "1826, 1406",
+      "NameCoord": "1781, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1819, 1446",
+      "Id": 10777101417101,
+      "BizName": "XII引导"
+    },
+    {
+      "Name": "SI引导",
+      "Type": 34,
+      "Coord": "1626, 1406",
+      "NameCoord": "1589, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1619, 1446",
+      "Id": 10778101417101,
+      "BizName": "SI引导"
+    },
+    {
+      "Name": "XI引导",
+      "Type": 34,
+      "Coord": "1726, 1406",
+      "NameCoord": "1689, 1486",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1719, 1446",
+      "Id": 10779101417101,
+      "BizName": "XI引导"
+    },
+    {
+      "Name": "X引导",
+      "Type": 34,
+      "Coord": "1036, 1261",
+      "NameCoord": "1011, 1341",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1026, 1301",
+      "Id": 10780101417101,
+      "BizName": "X引导"
+    },
+    {
+      "Name": "S引导",
+      "Type": 34,
+      "Coord": "2424, 1240",
+      "NameCoord": "2409, 1342",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "2424, 1291",
+      "Id": 10781101417101,
+      "BizName": "S引导"
+    },
+    {
+      "Name": "SF引导",
+      "Type": 34,
+      "Coord": "2333, 1261",
+      "NameCoord": "2313, 1341",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "2324, 1291",
+      "Id": 10782101417101,
+      "BizName": "SF引导"
+    },
+    {
+      "Name": "XF引导",
+      "Type": 18,
+      "Coord": "1141, 1261",
+      "NameCoord": "1101, 1341",
+      "OrientType": -1,
+      "DispId": -1,
+      "OprCountCoord": "1131, 1301",
+      "Id": 10783101417101,
+      "BizName": "XF引导"
+    },
+    {
+      "Name": "X灭灯",
+      "Type": -1,
+      "Coord": "1246, 1262",
+      "NameCoord": "1216, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1236, 1302",
+      "Id": 10784101417101,
+      "BizName": "X灭灯"
+    },
+    {
+      "Name": "S灭灯",
+      "Type": -1,
+      "Coord": "2254, 1281",
+      "NameCoord": "2233, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "2254, 1321",
+      "Id": 10785101417101,
+      "BizName": "S灭灯"
+    },
+    {
+      "Name": "S区故解",
+      "Type": 25,
+      "Coord": "2156, 1260",
+      "NameCoord": "2116, 1340",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "2146, 1298",
+      "Id": 10786101417101,
+      "BizName": "S区故解"
+    },
+    {
+      "Name": "X区故解",
+      "Type": 25,
+      "Coord": "1351, 1261",
+      "NameCoord": "1311, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1340, 1301",
+      "Id": 10787101417101,
+      "BizName": "X区故解"
+    },
+    {
+      "Name": "X总人解",
+      "Type": 14,
+      "Coord": "1464, 1261",
+      "NameCoord": "1424, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1454, 1301",
+      "Id": 10788101417101,
+      "BizName": "X总人解"
+    },
+    {
+      "Name": "S总人解",
+      "Type": 15,
+      "Coord": "2036, 1261",
+      "NameCoord": "1996, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "2026, 1301",
+      "Id": 10789101417101,
+      "BizName": "S总人解"
+    },
+    {
+      "Name": "S引导总锁",
+      "Type": 40,
+      "Coord": "1886, 1292",
+      "NameCoord": "1846, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1876, 1252",
+      "Id": 10790101417101,
+      "BizName": "S引导总锁"
+    },
+    {
+      "Name": "X引导总锁",
+      "Type": 39,
+      "Coord": "1586, 1298",
+      "NameCoord": "1546, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1576, 1258",
+      "Id": 10791101417101,
+      "BizName": "X引导总锁"
+    },
+    {
+      "Name": "上电解锁",
+      "Type": 41,
+      "Coord": "1742, 1293",
+      "NameCoord": "1702, 1341",
+      "OrientType": -1,
+      "DispId": 0,
+      "OprCountCoord": "1733, 1333",
+      "Id": 10792101417101,
+      "BizName": "上电解锁"
+    },
+    {
+      "Name": "3心轨",
+      "Type": 38,
+      "Coord": "590, 1609",
+      "NameCoord": "559, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "583, 1569",
+      "Id": 10793101417101,
+      "BizName": "3心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "3尖轨",
+      "Type": 38,
+      "Coord": "709, 1609",
+      "NameCoord": "677, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "701, 1569",
+      "Id": 10794101417101,
+      "BizName": "3尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "1心轨",
+      "Type": 38,
+      "Coord": "827, 1609",
+      "NameCoord": "796, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "820, 1569",
+      "Id": 10795101417101,
+      "BizName": "1心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "1尖轨",
+      "Type": 38,
+      "Coord": "946, 1609",
+      "NameCoord": "914, 1650",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "939, 1569",
+      "Id": 10796101417101,
+      "BizName": "1尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "11心轨",
+      "Type": 38,
+      "Coord": "353, 1779",
+      "NameCoord": "316, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "346, 1740",
+      "Id": 10797101417101,
+      "BizName": "11心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "11尖轨",
+      "Type": 38,
+      "Coord": "471, 1779",
+      "NameCoord": "434, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "464, 1740",
+      "Id": 10798101417101,
+      "BizName": "11尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "9心轨",
+      "Type": 38,
+      "Coord": "590, 1779",
+      "NameCoord": "559, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "583, 1740",
+      "Id": 10799101417101,
+      "BizName": "9心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "9尖轨",
+      "Type": 38,
+      "Coord": "709, 1779",
+      "NameCoord": "677, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "701, 1740",
+      "Id": 10800101417101,
+      "BizName": "9尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "7心轨",
+      "Type": 38,
+      "Coord": "827, 1779",
+      "NameCoord": "796, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "820, 1740",
+      "Id": 10801101417101,
+      "BizName": "7心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "7尖轨",
+      "Type": 38,
+      "Coord": "946, 1779",
+      "NameCoord": "914, 1819",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "939, 1740",
+      "Id": 10802101417101,
+      "BizName": "7尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "2尖轨",
+      "Type": 38,
+      "Coord": "2271, 1604",
+      "NameCoord": "2240, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2264, 1563",
+      "Id": 10803101417101,
+      "BizName": "2尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "2心轨",
+      "Type": 38,
+      "Coord": "2381, 1604",
+      "NameCoord": "2350, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2374, 1563",
+      "Id": 10804101417101,
+      "BizName": "2心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "4尖轨",
+      "Type": 38,
+      "Coord": "2491, 1604",
+      "NameCoord": "2460, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2484, 1563",
+      "Id": 10805101417101,
+      "BizName": "4尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "4心轨",
+      "Type": 38,
+      "Coord": "2601, 1604",
+      "NameCoord": "2570, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2594, 1563",
+      "Id": 10806101417101,
+      "BizName": "4心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "6尖轨",
+      "Type": 38,
+      "Coord": "2711, 1604",
+      "NameCoord": "2680, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2704, 1563",
+      "Id": 10807101417101,
+      "BizName": "6尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "6心轨",
+      "Type": 38,
+      "Coord": "2821, 1604",
+      "NameCoord": "2790, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2814, 1563",
+      "Id": 10808101417101,
+      "BizName": "6心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "8尖轨",
+      "Type": 38,
+      "Coord": "2931, 1604",
+      "NameCoord": "2900, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2924, 1563",
+      "Id": 10809101417101,
+      "BizName": "8尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "8心轨",
+      "Type": 38,
+      "Coord": "3041, 1604",
+      "NameCoord": "3010, 1644",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "3034, 1563",
+      "Id": 10810101417101,
+      "BizName": "8心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "10尖轨",
+      "Type": 38,
+      "Coord": "2271, 1793",
+      "NameCoord": "2234, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2264, 1753",
+      "Id": 10811101417101,
+      "BizName": "10尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "10心轨",
+      "Type": 38,
+      "Coord": "2381, 1793",
+      "NameCoord": "2344, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2374, 1753",
+      "Id": 10812101417101,
+      "BizName": "10心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "12尖轨",
+      "Type": 38,
+      "Coord": "2491, 1793",
+      "NameCoord": "2454, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2484, 1753",
+      "Id": 10813101417101,
+      "BizName": "12尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "12心轨",
+      "Type": 38,
+      "Coord": "2601, 1793",
+      "NameCoord": "2564, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2594, 1753",
+      "Id": 10814101417101,
+      "BizName": "12心轨(S_0)(S_0)"
+    },
+    {
+      "Name": "14尖轨",
+      "Type": 38,
+      "Coord": "2711, 1793",
+      "NameCoord": "2674, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2704, 1753",
+      "Id": 10815101417101,
+      "BizName": "14尖轨(S_0)(S_0)"
+    },
+    {
+      "Name": "14心轨",
+      "Type": 38,
+      "Coord": "2821, 1793",
+      "NameCoord": "2784, 1830",
+      "OrientType": 0,
+      "DispId": 0,
+      "OprCountCoord": "2814, 1753",
+      "Id": 10816101417101,
+      "BizName": "14心轨(S_0)(S_0)"
+    }
+  ],
+  "OrtArrows": [
+    {
+      "Name": "接车",
+      "NameCoord": "2569, 313",
+      "Coord": [
+        "2619, 353",
+        "2607, 341",
+        "2607, 349",
+        "2577, 349",
+        "2577, 357",
+        "2607, 357",
+        "2607, 365"
+      ],
+      "Type": 2,
+      "OrientType": 1,
+      "StageId": 1015,
+      "Id": 10664101407102,
+      "BizName": "接车(SN_1015)"
+    },
+    {
+      "Name": "发车",
+      "NameCoord": "2639, 314",
+      "Coord": [
+        "2639, 354",
+        "2651, 342",
+        "2651, 350",
+        "2681, 350",
+        "2681, 358",
+        "2651, 358",
+        "2651, 366"
+      ],
+      "Type": 3,
+      "OrientType": 1,
+      "StageId": 1015,
+      "Id": 10665101407102,
+      "BizName": "发车(SN_1015)"
+    },
+    {
+      "Name": "接车",
+      "NameCoord": "2549, 743",
+      "Coord": [
+        "2599, 783",
+        "2587, 771",
+        "2587, 779",
+        "2557, 779",
+        "2557, 787",
+        "2587, 787",
+        "2587, 795"
+      ],
+      "Type": 2,
+      "OrientType": 0,
+      "StageId": 1015,
+      "Id": 10666101407102,
+      "BizName": "接车(S_1015)"
+    },
+    {
+      "Name": "发车",
+      "NameCoord": "2619, 744",
+      "Coord": [
+        "2619, 784",
+        "2631, 772",
+        "2631, 780",
+        "2661, 780",
+        "2661, 788",
+        "2631, 788",
+        "2631, 796"
+      ],
+      "Type": 3,
+      "OrientType": 0,
+      "StageId": 1015,
+      "Id": 10667101407102,
+      "BizName": "发车(S_1015)"
+    },
+    {
+      "Name": "接车",
+      "NameCoord": "664, 430",
+      "Coord": [
+        "715, 470",
+        "703, 458",
+        "703, 466",
+        "673, 466",
+        "673, 474",
+        "703, 474",
+        "703, 482"
+      ],
+      "Type": 2,
+      "OrientType": 2,
+      "StageId": 1011,
+      "Id": 10668101407102,
+      "BizName": "接车(X_1011)"
+    },
+    {
+      "Name": "发车",
+      "NameCoord": "734, 431",
+      "Coord": [
+        "735, 471",
+        "747, 459",
+        "747, 467",
+        "777, 467",
+        "777, 475",
+        "747, 475",
+        "747, 483"
+      ],
+      "Type": 3,
+      "OrientType": 2,
+      "StageId": 1011,
+      "Id": 10669101407102,
+      "BizName": "发车(X_1011)"
+    },
+    {
+      "Name": "接车",
+      "NameCoord": "673, 776",
+      "Coord": [
+        "724, 816",
+        "712, 804",
+        "712, 812",
+        "682, 812",
+        "682, 820",
+        "712, 820",
+        "712, 828"
+      ],
+      "Type": 2,
+      "OrientType": 3,
+      "StageId": 1011,
+      "Id": 10670101407102,
+      "BizName": "接车(XN_1011)"
+    },
+    {
+      "Name": "发车",
+      "NameCoord": "743, 777",
+      "Coord": [
+        "744, 817",
+        "756, 805",
+        "756, 813",
+        "786, 813",
+        "786, 821",
+        "756, 821",
+        "756, 829"
+      ],
+      "Type": 3,
+      "OrientType": 3,
+      "StageId": 1011,
+      "Id": 10671101407102,
+      "BizName": "发车(XN_1011)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "429, 129",
+      "Coord": [
+        "478, 98",
+        "466, 86",
+        "466, 94",
+        "436, 94",
+        "436, 102",
+        "466, 102",
+        "466, 110"
+      ],
+      "Type": 0,
+      "OrientType": 2,
+      "StageId": 1011,
+      "Id": 10672101407101,
+      "BizName": " (X_1011)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "504, 130",
+      "Coord": [
+        "514, 100",
+        "526, 88",
+        "526, 96",
+        "556, 96",
+        "556, 104",
+        "526, 104",
+        "526, 112"
+      ],
+      "Type": 1,
+      "OrientType": 2,
+      "StageId": 1011,
+      "Id": 10673101407101,
+      "BizName": " (X_1011)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "2533, 1333",
+      "Coord": [
+        "2582, 1292",
+        "2570, 1280",
+        "2570, 1288",
+        "2540, 1288",
+        "2540, 1296",
+        "2570, 1296",
+        "2570, 1304"
+      ],
+      "Type": 1,
+      "OrientType": 0,
+      "StageId": 1015,
+      "Id": 10674101407101,
+      "BizName": " (S_1015)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "2604, 1321",
+      "Coord": [
+        "2614, 1292",
+        "2626, 1280",
+        "2626, 1288",
+        "2656, 1288",
+        "2656, 1296",
+        "2626, 1296",
+        "2626, 1304"
+      ],
+      "Type": 0,
+      "OrientType": 0,
+      "StageId": 1015,
+      "Id": 10675101407101,
+      "BizName": " (S_1015)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "405, 1356",
+      "Coord": [
+        "453, 1327",
+        "441, 1315",
+        "441, 1323",
+        "411, 1323",
+        "411, 1331",
+        "441, 1331",
+        "441, 1339"
+      ],
+      "Type": 0,
+      "OrientType": 3,
+      "StageId": 1011,
+      "Id": 10676101407101,
+      "BizName": " (XN_1011)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "476, 1346",
+      "Coord": [
+        "477, 1326",
+        "489, 1314",
+        "489, 1322",
+        "519, 1322",
+        "519, 1330",
+        "489, 1330",
+        "489, 1338"
+      ],
+      "Type": 1,
+      "OrientType": 3,
+      "StageId": 1011,
+      "Id": 10677101407101,
+      "BizName": " (XN_1011)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "2533, 159",
+      "Coord": [
+        "2582, 118",
+        "2570, 106",
+        "2570, 114",
+        "2540, 114",
+        "2540, 122",
+        "2570, 122",
+        "2570, 130"
+      ],
+      "Type": 1,
+      "OrientType": 1,
+      "StageId": 1015,
+      "Id": 10678101407101,
+      "BizName": " (SN_1015)"
+    },
+    {
+      "Name": " ",
+      "NameCoord": "2601, 147",
+      "Coord": [
+        "2611, 117",
+        "2623, 105",
+        "2623, 113",
+        "2653, 113",
+        "2653, 121",
+        "2623, 121",
+        "2623, 129"
+      ],
+      "Type": 0,
+      "OrientType": 1,
+      "StageId": 1015,
+      "Id": 10679101407101,
+      "BizName": " (SN_1015)"
+    }
+  ],
+  "OrtRects": [
+    {
+      "Name": "XF方向",
+      "NameCoord": "384, 1274",
+      "Coord": ["384, 1274", "506, 239"],
+      "IsThiner": false,
+      "Id": 10702101415101,
+      "BizName": null
+    },
+    {
+      "Name": " ",
+      "NameCoord": "300, 1530",
+      "Coord": ["300, 1530", "756, 349"],
+      "IsThiner": false,
+      "Id": 10703101415101,
+      "BizName": null
+    },
+    {
+      "Name": "S",
+      "NameCoord": "2513, 1266",
+      "Coord": ["2503, 1256", "506, 239"],
+      "IsThiner": false,
+      "Id": 10704101415101,
+      "BizName": null
+    },
+    {
+      "Name": "  ",
+      "NameCoord": "2256, 1551",
+      "Coord": ["2236, 1531", "876, 369"],
+      "IsThiner": false,
+      "Id": 10705101415101,
+      "BizName": null
+    },
+    {
+      "Name": "SF",
+      "NameCoord": "2530, 89",
+      "Coord": ["2520, 79", "506, 239"],
+      "IsThiner": false,
+      "Id": 10706101415101,
+      "BizName": null
+    },
+    {
+      "Name": "X",
+      "NameCoord": "420, 49",
+      "Coord": ["420, 49", "506, 239"],
+      "IsThiner": false,
+      "Id": 10707101415101,
+      "BizName": null
+    }
+  ],
+  "Platforms": [
+    {
+      "Toward": false,
+      "Coord": ["1680, 621", "1680, 603", "1894, 603", "1894, 621"],
+      "Type": 0,
+      "Id": 10688101413101,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1671, 607", "1671, 626", "1884, 626", "1884, 607"],
+      "Type": 0,
+      "Id": 10689101413101,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1680, 963", "1680, 944", "1893, 944", "1893, 963"],
+      "Type": 0,
+      "Id": 10690101413101,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1671, 951", "1671, 970", "1884, 970", "1884, 951"],
+      "Type": 0,
+      "Id": 10691101413101,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1630, 457", "1630, 439", "1850, 439", "1850, 457"],
+      "Type": 0,
+      "Id": 10692101413102,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1621, 446", "1621, 464", "1841, 464", "1841, 446"],
+      "Type": 0,
+      "Id": 10693101413102,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1630, 803", "1630, 784", "1850, 784", "1850, 803"],
+      "Type": 0,
+      "Id": 10694101413102,
+      "BizName": ""
+    },
+    {
+      "Toward": false,
+      "Coord": ["1623, 793", "1623, 811", "1843, 811", "1843, 793"],
+      "Type": 0,
+      "Id": 10695101413102,
+      "BizName": ""
+    }
+  ],
+  "RtBtns": [
+    {
+      "Name": "XIIF",
+      "Type": 0,
+      "RectCoord": "1953, 790",
+      "Id": 10625101406101,
+      "BizName": "XIIF"
+    },
+    {
+      "Name": "SIIF",
+      "Type": 0,
+      "RectCoord": "1486, 837",
+      "Id": 10626101406101,
+      "BizName": "SIIF"
+    },
+    {
+      "Name": "XIF",
+      "Type": 0,
+      "RectCoord": "1953, 704",
+      "Id": 10627101406101,
+      "BizName": "XIF"
+    },
+    {
+      "Name": "SIF",
+      "Type": 0,
+      "RectCoord": "1486, 751",
+      "Id": 10628101406101,
+      "BizName": "SIF"
+    },
+    {
+      "Name": "X3F",
+      "Type": 0,
+      "RectCoord": "1953, 619",
+      "Id": 10629101406101,
+      "BizName": "X3F"
+    },
+    {
+      "Name": "S3F",
+      "Type": 0,
+      "RectCoord": "1486, 666",
+      "Id": 10630101406101,
+      "BizName": "S3F"
+    },
+    {
+      "Name": "X5F",
+      "Type": 0,
+      "RectCoord": "1923, 534",
+      "Id": 10631101406101,
+      "BizName": "X5F"
+    },
+    {
+      "Name": "S5F",
+      "Type": 0,
+      "RectCoord": "1486, 581",
+      "Id": 10632101406101,
+      "BizName": "S5F"
+    },
+    {
+      "Name": "S4F",
+      "Type": 0,
+      "RectCoord": "1486, 923",
+      "Id": 10633101406101,
+      "BizName": "S4F"
+    },
+    {
+      "Name": "X4F",
+      "Type": 0,
+      "RectCoord": "1953, 876",
+      "Id": 10634101406101,
+      "BizName": "X4F"
+    },
+    {
+      "Name": "S6F",
+      "Type": 0,
+      "RectCoord": "1486, 1009",
+      "Id": 10635101406101,
+      "BizName": "S6F"
+    },
+    {
+      "Name": "X6F",
+      "Type": 0,
+      "RectCoord": "1953, 961",
+      "Id": 10636101406101,
+      "BizName": "X6F"
+    },
+    {
+      "Name": "SJ",
+      "Type": 0,
+      "RectCoord": "2777, 836",
+      "Id": 10637101406101,
+      "BizName": "SJ"
+    },
+    {
+      "Name": "STA",
+      "Type": 1,
+      "RectCoord": "2830, 837",
+      "Id": 10638101406101,
+      "BizName": "STA"
+    },
+    {
+      "Name": "SFJ",
+      "Type": 0,
+      "RectCoord": "2773, 706",
+      "Id": 10639101406101,
+      "BizName": "SFJ"
+    },
+    {
+      "Name": "SFTA",
+      "Type": 1,
+      "RectCoord": "2840, 707",
+      "Id": 10640101406101,
+      "BizName": "SFTA"
+    },
+    {
+      "Name": "XFJ",
+      "Type": 0,
+      "RectCoord": "733, 836",
+      "Id": 10641101406101,
+      "BizName": "XFJ"
+    },
+    {
+      "Name": "XFTA",
+      "Type": 1,
+      "RectCoord": "650, 837",
+      "Id": 10642101406101,
+      "BizName": "XFTA"
+    },
+    {
+      "Name": "XJ",
+      "Type": 0,
+      "RectCoord": "733, 706",
+      "Id": 10643101406101,
+      "BizName": "XJ"
+    },
+    {
+      "Name": "XTA",
+      "Type": 1,
+      "RectCoord": "660, 707",
+      "Id": 10644101406101,
+      "BizName": "XTA"
+    },
+    {
+      "Name": "X5D",
+      "Type": 4,
+      "RectCoord": "1957, 534",
+      "Id": 10645101406101,
+      "BizName": "X5D"
+    },
+    {
+      "Name": "X5Y",
+      "Type": 2,
+      "RectCoord": "1890, 533",
+      "Id": 10646101406101,
+      "BizName": "X5Y"
+    },
+    {
+      "Name": "X3_Y",
+      "Type": 2,
+      "RectCoord": "1921, 621",
+      "Id": 10647101406101,
+      "BizName": "X3_Y"
+    },
+    {
+      "Name": "XI_Y",
+      "Type": 2,
+      "RectCoord": "1919, 706",
+      "Id": 10648101406101,
+      "BizName": "XI_Y"
+    },
+    {
+      "Name": "XII_Y",
+      "Type": 2,
+      "RectCoord": "1919, 789",
+      "Id": 10649101406101,
+      "BizName": "XII_Y"
+    },
+    {
+      "Name": "X4_Y",
+      "Type": 2,
+      "RectCoord": "1919, 876",
+      "Id": 10650101406101,
+      "BizName": "X4_Y"
+    },
+    {
+      "Name": "X6_Y",
+      "Type": 2,
+      "RectCoord": "1920, 963",
+      "Id": 10651101406101,
+      "BizName": "X6_Y"
+    },
+    {
+      "Name": "S5_Y",
+      "Type": 2,
+      "RectCoord": "1520, 581",
+      "Id": 10652101406101,
+      "BizName": "S5_Y"
+    },
+    {
+      "Name": "S3_Y",
+      "Type": 2,
+      "RectCoord": "1523, 664",
+      "Id": 10653101406101,
+      "BizName": "S3_Y"
+    },
+    {
+      "Name": "SI_Y",
+      "Type": 2,
+      "RectCoord": "1521, 750",
+      "Id": 10654101406101,
+      "BizName": "SI_Y"
+    },
+    {
+      "Name": "SII_Y",
+      "Type": 2,
+      "RectCoord": "1519, 839",
+      "Id": 10655101406101,
+      "BizName": "SII_Y"
+    },
+    {
+      "Name": "S4_Y",
+      "Type": 2,
+      "RectCoord": "1521, 923",
+      "Id": 10656101406101,
+      "BizName": "S4_Y"
+    },
+    {
+      "Name": "S6_Y",
+      "Type": 2,
+      "RectCoord": "1521, 1009",
+      "Id": 10657101406101,
+      "BizName": "S6_Y"
+    },
+    {
+      "Name": "X_Y",
+      "Type": 2,
+      "RectCoord": "697, 707",
+      "Id": 10658101406101,
+      "BizName": "X_Y"
+    },
+    {
+      "Name": "XF_Y",
+      "Type": 2,
+      "RectCoord": "686, 836",
+      "Id": 10659101406101,
+      "BizName": "XF_Y"
+    },
+    {
+      "Name": "SF_Y",
+      "Type": 2,
+      "RectCoord": "2804, 706",
+      "Id": 10660101406101,
+      "BizName": "SF_Y"
+    },
+    {
+      "Name": "S_Y",
+      "Type": 2,
+      "RectCoord": "2806, 836",
+      "Id": 10661101406101,
+      "BizName": "S_Y"
+    },
+    {
+      "Name": "D2D",
+      "Type": 4,
+      "RectCoord": "2523, 589",
+      "Id": 10662101406101,
+      "BizName": "D2D"
+    },
+    {
+      "Name": "D4D",
+      "Type": 4,
+      "RectCoord": "2514, 673",
+      "Id": 10663101406101,
+      "BizName": "D4D"
+    }
+  ],
+  "RtPanes": [
+    {
+      "Name": "RtTab(X_1011)",
+      "BorderCoord": [
+        "642, 297",
+        "802, 297",
+        "642, 332",
+        "802, 332",
+        "642, 368",
+        "802, 368",
+        "642, 403",
+        "802, 403"
+      ],
+      "TextCoord": [
+        "645, 300",
+        "792, 300",
+        "862, 300",
+        "645, 335",
+        "792, 335",
+        "862, 335",
+        "645, 371",
+        "792, 371",
+        "862, 371"
+      ],
+      "StageId": 1011,
+      "OrientType": 2,
+      "Id": 10680101412102,
+      "BizName": "RtTab(X_1011)"
+    },
+    {
+      "Name": "RtTab(XN_1011)",
+      "BorderCoord": [
+        "654, 835",
+        "814, 835",
+        "654, 871",
+        "814, 871",
+        "654, 906",
+        "814, 906",
+        "654, 942",
+        "814, 942"
+      ],
+      "TextCoord": [
+        "657, 838",
+        "805, 838",
+        "874, 838",
+        "657, 874",
+        "805, 874",
+        "874, 874",
+        "657, 909",
+        "805, 909",
+        "874, 909"
+      ],
+      "StageId": 1011,
+      "OrientType": 3,
+      "Id": 10681101412102,
+      "BizName": "RtTab(XN_1011)"
+    },
+    {
+      "Name": "RtTab(SN_1015)",
+      "BorderCoord": [
+        "2422, 197",
+        "2582, 197",
+        "2422, 232",
+        "2582, 232",
+        "2422, 268",
+        "2582, 268",
+        "2422, 303",
+        "2582, 303"
+      ],
+      "TextCoord": [
+        "2425, 200",
+        "2572, 200",
+        "2642, 200",
+        "2425, 235",
+        "2572, 235",
+        "2642, 235",
+        "2425, 271",
+        "2572, 271",
+        "2642, 271"
+      ],
+      "StageId": 1015,
+      "OrientType": 1,
+      "Id": 10682101412102,
+      "BizName": "RtTab(SN_1015)"
+    },
+    {
+      "Name": "RtTab(S_1015)",
+      "BorderCoord": [
+        "2422, 809",
+        "2582, 809",
+        "2422, 845",
+        "2582, 845",
+        "2422, 880",
+        "2582, 880",
+        "2422, 915",
+        "2582, 915"
+      ],
+      "TextCoord": [
+        "2425, 812",
+        "2572, 812",
+        "2642, 812",
+        "2425, 848",
+        "2572, 848",
+        "2642, 848",
+        "2425, 883",
+        "2572, 883",
+        "2642, 883"
+      ],
+      "StageId": 1015,
+      "OrientType": 0,
+      "Id": 10683101412102,
+      "BizName": "RtTab(S_1015)"
+    },
+    {
+      "Name": "RtTab(X_1011)",
+      "BorderCoord": [
+        "426, 346",
+        "586, 346",
+        "426, 382",
+        "586, 382",
+        "426, 418",
+        "586, 418",
+        "426, 454",
+        "586, 454"
+      ],
+      "TextCoord": [
+        "430, 350",
+        "576, 350",
+        "646, 350",
+        "430, 386",
+        "576, 386",
+        "646, 386",
+        "430, 422",
+        "576, 422",
+        "646, 422"
+      ],
+      "StageId": 1011,
+      "OrientType": 2,
+      "Id": 10684101412101,
+      "BizName": "RtTab(X_1011)"
+    },
+    {
+      "Name": "RtTab(SN_1015)",
+      "BorderCoord": [
+        "2916, 348",
+        "3076, 348",
+        "2916, 384",
+        "3076, 384",
+        "2916, 420",
+        "3076, 420",
+        "2916, 456",
+        "3076, 456"
+      ],
+      "TextCoord": [
+        "2920, 352",
+        "3066, 352",
+        "3136, 352",
+        "2920, 388",
+        "3066, 388",
+        "3136, 388",
+        "2920, 424",
+        "3066, 424",
+        "3136, 424"
+      ],
+      "StageId": 1015,
+      "OrientType": 1,
+      "Id": 10685101412101,
+      "BizName": "RtTab(SN_1015)"
+    },
+    {
+      "Name": "RtTab(S_1015)",
+      "BorderCoord": [
+        "2911, 1069",
+        "3071, 1069",
+        "2911, 1104",
+        "3071, 1104",
+        "2911, 1140",
+        "3071, 1140",
+        "2911, 1176",
+        "3071, 1176"
+      ],
+      "TextCoord": [
+        "2916, 1071",
+        "3061, 1071",
+        "3131, 1071",
+        "2916, 1109",
+        "3061, 1109",
+        "3131, 1109",
+        "2916, 1144",
+        "3061, 1144",
+        "3131, 1144"
+      ],
+      "StageId": 1015,
+      "OrientType": 0,
+      "Id": 10686101412101,
+      "BizName": "RtTab(S_1015)"
+    },
+    {
+      "Name": "RtTab(XN_1011)",
+      "BorderCoord": [
+        "438, 1068",
+        "598, 1068",
+        "438, 1104",
+        "598, 1104",
+        "438, 1140",
+        "598, 1140",
+        "438, 1176",
+        "598, 1176"
+      ],
+      "TextCoord": [
+        "442, 1072",
+        "588, 1072",
+        "658, 1072",
+        "442, 1108",
+        "588, 1108",
+        "658, 1108",
+        "442, 1144",
+        "588, 1144",
+        "658, 1144"
+      ],
+      "StageId": 1011,
+      "OrientType": 3,
+      "Id": 10687101412101,
+      "BizName": "RtTab(XN_1011)"
+    }
+  ],
+  "Bridges": [],
+  "Workshops": [],
+  "Tunnels": [],
+  "Partitions": [],
+  "Ramps": [],
+  "ElecArms": [],
+  "Ocses": [],
+  "StaBuilds": [
+    {
+      "Name": "",
+      "Coord": [
+        "1651, 294",
+        "1794, 294",
+        "1794, 380",
+        "1651, 380",
+        "1694, 322",
+        "1751, 322",
+        "1665, 351",
+        "1780, 351"
+      ],
+      "NameCoord": "1834, 334",
+      "Id": 10836101434102,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": [
+        "1678, 430",
+        "1821, 430",
+        "1821, 515",
+        "1678, 515",
+        "1721, 458",
+        "1778, 458",
+        "1692, 487",
+        "1807, 487"
+      ],
+      "NameCoord": "1861, 470",
+      "Id": 10837101434101,
+      "BizName": null
+    }
+  ],
+  "Diagnostics": [],
+  "FxCenters": [
+    {
+      "Name": "分相中心K33+217",
+      "Coord": ["2927, 320", "2927, 401"],
+      "NameCoord": "2817, 270",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10834101431102,
+      "BizName": null
+    },
+    {
+      "Name": "分相中心K33+217",
+      "Coord": ["2917, 750", "2917, 791"],
+      "NameCoord": "2817, 800",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10835101431102,
+      "BizName": null
+    }
+  ],
+  "NoElecAreas": [
+    {
+      "Name": "",
+      "Coord": ["1959, 297", "1959, 343"],
+      "NameCoord": "1999, 337",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10838101435102,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2634, 383", "2634, 539"],
+      "NameCoord": "2674, 423",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10839101435102,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2041, 434", "2041, 516"],
+      "NameCoord": "2081, 474",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10840101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2044, 516", "2139, 517"],
+      "NameCoord": "2089, 556",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10841101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2146, 519", "2200, 573"],
+      "NameCoord": "2186, 559",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10842101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2216, 589", "2327, 700"],
+      "NameCoord": "2256, 629",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10843101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2329, 701", "2493, 703"],
+      "NameCoord": "2373, 741",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10844101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2519, 701", "2736, 703"],
+      "NameCoord": "2563, 741",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10845101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2736, 554", "2736, 696"],
+      "NameCoord": "2776, 594",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10846101435101,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["1959, 349", "2043, 350"],
+      "NameCoord": "1999, 389",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10847101435102,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2239, 541", "2636, 543"],
+      "NameCoord": "2279, 581",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10848101435102,
+      "BizName": null
+    },
+    {
+      "Name": "",
+      "Coord": ["2047, 350", "2239, 541"],
+      "NameCoord": "2087, 390",
+      "Ks": null,
+      "KsCoord": "0, 0",
+      "Id": 10849101435102,
+      "BizName": null
+    }
+  ],
+  "RelLampBtns": [
+    {
+      "BizName": "XII",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IIG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "XIIF",
+      "NormalRtBtnBizName": ["XIIF", "XII_Y"]
+    },
+    {
+      "BizName": "XII",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IIG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "SII",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IIG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "SIIF",
+      "NormalRtBtnBizName": ["SIIF", "SII_Y"]
+    },
+    {
+      "BizName": "SII",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IIG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "XI",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "XIF",
+      "NormalRtBtnBizName": ["XIF", "XI_Y"]
+    },
+    {
+      "BizName": "XI",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "SI",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "SIF",
+      "NormalRtBtnBizName": ["SIF", "SI_Y"]
+    },
+    {
+      "BizName": "SI",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "IG",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "X",
+      "RelPosType": 2,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "3",
+      "TargetStaId": 1011,
+      "LampType": 2,
+      "YdOptBtnBizName": "X引导",
+      "RtBtnBizName": "XJ",
+      "NormalRtBtnBizName": ["XJ", "XTA", "X_Y"]
+    },
+    {
+      "BizName": "X",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 0,
+      "YdOptBtnBizName": "X引导",
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "XF",
+      "RelPosType": 1,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "1",
+      "TargetStaId": 1011,
+      "LampType": 3,
+      "YdOptBtnBizName": "XF引导",
+      "RtBtnBizName": "XFJ",
+      "NormalRtBtnBizName": ["XFJ", "XFTA", "XF_Y"]
+    },
+    {
+      "BizName": "XF",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 0,
+      "YdOptBtnBizName": "XF引导",
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "X3",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "3G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "X3F",
+      "NormalRtBtnBizName": ["X3F", "X3_Y"]
+    },
+    {
+      "BizName": "X3",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "3G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S3",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "3G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "S3F",
+      "NormalRtBtnBizName": ["S3F", "S3_Y"]
+    },
+    {
+      "BizName": "S3",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "3G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "X5",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "5G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "X5F",
+      "NormalRtBtnBizName": ["X5F", "X5D", "X5Y"]
+    },
+    {
+      "BizName": "X5",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "5G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S5",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "5G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "S5F",
+      "NormalRtBtnBizName": ["S5F", "S5_Y"]
+    },
+    {
+      "BizName": "S5",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "5G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "SF",
+      "RelPosType": 2,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "4",
+      "TargetStaId": 1015,
+      "LampType": 5,
+      "YdOptBtnBizName": "SF引导",
+      "RtBtnBizName": "SFJ",
+      "NormalRtBtnBizName": ["SFJ", "SFTA", "SF_Y"]
+    },
+    {
+      "BizName": "SF",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 0,
+      "YdOptBtnBizName": "SF引导",
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S",
+      "RelPosType": 1,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "2",
+      "TargetStaId": 1015,
+      "LampType": 4,
+      "YdOptBtnBizName": "S引导",
+      "RtBtnBizName": "SJ",
+      "NormalRtBtnBizName": ["SJ", "STA", "S_Y"]
+    },
+    {
+      "BizName": "S",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 0,
+      "YdOptBtnBizName": "S引导",
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "D2",
+      "RelPosType": 2,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "18",
+      "TargetStaId": -1,
+      "LampType": 6,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": ["D2D"]
+    },
+    {
+      "BizName": "D2",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 6,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "D4",
+      "RelPosType": 3,
+      "LocatedRailType": 3,
+      "LocatedRailBizName": "18",
+      "TargetStaId": -1,
+      "LampType": 6,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": ["D4D"]
+    },
+    {
+      "BizName": "D4",
+      "RelPosType": 0,
+      "LocatedRailType": 0,
+      "LocatedRailBizName": null,
+      "TargetStaId": -1,
+      "LampType": 6,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S4",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "4G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S4",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "4G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "S4F",
+      "NormalRtBtnBizName": ["S4F", "S4_Y"]
+    },
+    {
+      "BizName": "X4",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "4G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "X4",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "4G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "X4F",
+      "NormalRtBtnBizName": ["X4F", "X4_Y"]
+    },
+    {
+      "BizName": "S6",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "6G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "S6",
+      "RelPosType": 2,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "6G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "S6F",
+      "NormalRtBtnBizName": ["S6F", "S6_Y"]
+    },
+    {
+      "BizName": "X6",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "6G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": null,
+      "NormalRtBtnBizName": []
+    },
+    {
+      "BizName": "X6",
+      "RelPosType": 3,
+      "LocatedRailType": 2,
+      "LocatedRailBizName": "6G",
+      "TargetStaId": -1,
+      "LampType": 1,
+      "YdOptBtnBizName": null,
+      "RtBtnBizName": "X6F",
+      "NormalRtBtnBizName": ["X6F", "X6_Y"]
+    }
+  ],
+  "RelRailBridge": [],
+  "RelTrntStatusLamps": [],
+  "RelSecRelSecLamps": [],
+  "1": "1"
+}

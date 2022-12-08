@@ -234,6 +234,7 @@ export default ({
                         });
                         this.data.ctx.add(lines);
                     }
+                    
                 })
 
 

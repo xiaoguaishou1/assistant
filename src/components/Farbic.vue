@@ -267,13 +267,6 @@ export default ({
                     })
                 }
 
-                lines.on('mouseover', (e) => {
-                    console.log('e', e)
-                })
-
-                return
-
-
                 //鼠标移入 lines
                 let redLine = null;
                 lines.on('mouseover', () => {

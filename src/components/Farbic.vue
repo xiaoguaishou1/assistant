@@ -217,81 +217,68 @@ export default ({
                 });
                 this.data.ctx.add(text);
 
-                // ele.Coord.forEach((item, index) => {
-                //     // console.log(item.length)
-                //     if (index !== 0) {
-                //         let [x, y] = item;
-                //         let [x1, y1] = ele.Coord[index - 1];
-                //         lines = new fabric.Line([x, y, x1, y1], {
-                //             fill: '#fff',
-                //             stroke: '#fff',
-                //             strokeWidth: 2,
-                //             selectable: false
-                //         });
-                //         this.data.ctx.add(lines);
-                //     }
-                // })
 
-                if (ele.Coord.length == 2) {
-                    ele.Coord.forEach((item, index) => {
-                        // let [x,y] = item; 解构赋值
-                        let x = item[0];
-                        let y = item[1];
-                        if (index !== 0) {
-                            let [x1, y1] = ele.Coord[index - 1];
-                            lines = new fabric.Line([x, y, x1, y1], {
-                                fill: 'red',
-                                stroke: 'red',
-                                strokeWidth: 2,
-                                selectable: false
-                            });
-                            this.data.ctx.add(lines);
-                        }
-                    })
-                } else if (ele.Coord.length == 3) {
-                    ele.Coord.forEach((item, index) => {
-                        // let [x,y] = item; 解构赋值
-                        let [x, y] = item;
-                        console.log(x, y, 'item')
-
-                        if (index !== 0) {
-                            let [x1, y1] = ele.Coord[index - 1];
-                            lines = new fabric.Line([x, y, x1, y1], {
-                                fill: '#fff',
-                                stroke: '#fff',
-                                strokeWidth: 2,
-                                selectable: false
-                            });
-                            this.data.ctx.add(lines);
-                        }
-                    })
-                }
-
-                lines.on('mouseover', (e) => {
-                    console.log('e', e)
+                ele.Coord.forEach((item, index) => {
+                    let x = item[0];
+                    let y = item[1];
+                    if (index !== 0) {
+                        let [x1, y1] = ele.Coord[index - 1];
+                        lines = new fabric.Line([x, y, x1, y1], {
+                            fill: '#00f',
+                            stroke: '#00f',
+                            strokeWidth: 2,
+                            selectable: false
+                        });
+                        this.data.ctx.add(lines);
+                    }
                 })
-
-                return
-
 
                 //鼠标移入 lines
                 let redLine = null;
+                //特殊股道 
+                // 11DGA 7DGA 8DGA
+                let specialRail = [];
                 lines.on('mouseover', () => {
-                    // lines.x1, lines.y1, lines.x2, lines.y2
-                    //line 绘制
-                    redLine = new fabric.Line([lines.x1, lines.y1, lines.x2, lines.y2], {
-                        fill: 'red',
-                        stroke: 'red',
-                        strokeWidth: 4,
-                        selectable: false
-                    });
-                    this.data.ctx.add(redLine);
+                    if (ele.Name == '11DGA' || ele.Name == '7DGA' || ele.Name == '8DGA') {
+                        //找到对应的股道数据
+                        let arr = json.RailInSta.filter(item => {
+                            return item.Name == ele.Name
+                        })
+                        arr[0].Coord.forEach((item, index) => {
+                            let x = item[0];
+                            let y = item[1];
+                            if (index !== 0) {
+                                let [x1, y1] = arr[0].Coord[index - 1];
+                                let line = new fabric.Line([x, y, x1, y1], {
+                                    fill: 'red',
+                                    stroke: 'red',
+                                    strokeWidth: 4,
+                                    selectable: false
+                                });
+                                specialRail.push(line);
+                                this.data.ctx.add(line);
+                            }
+                        })
+
+                    } else {
+                        redLine = new fabric.Line([lines.x1, lines.y1, lines.x2, lines.y2], {
+                            fill: 'red',
+                            stroke: 'red',
+                            strokeWidth: 4,
+                            selectable: false
+                        });
+                        this.data.ctx.add(redLine);
+                    }
                 })
                 //鼠标移出lines 移除
                 lines.on('mouseout', () => {
                     this.data.ctx.remove(redLine);
+                    if (specialRail) {
+                        specialRail.map(ele => {
+                            this.data.ctx.remove(ele);
+                        })
+                    }
                 })
-
                 //在name  5G 3G IG IIG 4G 6G 的股道上 绘制 矩形 400*20
                 let rect = null;
                 if (ele.BizName == '5G' || ele.BizName == '3G' || ele.BizName == 'IG' || ele.BizName == 'IIG' || ele.BizName == '4G' || ele.BizName == '6G') {
@@ -383,12 +370,13 @@ export default ({
                 this.data.ctx.add(text);
 
                 //绘制道岔
-                let StartRailCoord = null;
+                let StartRailCoord = [];
                 let PositiveSwitchCoord = null;
                 let NegativeSwitchCoord = null;
                 let StartSwitchCoord = null;
                 let line = null;
                 let center = null;
+                //虚线框
                 const drawLine = (arr, key, color = '#00f') => {
                     if (arr.length == 0) return;
                     arr.forEach((item, index) => {
@@ -396,13 +384,14 @@ export default ({
                             let [x, y] = item;
                             let [x1, y1] = arr[index - 1];
                             if (key == 'StartRailCoord' || key == 'PositiveRailCoord' || key == 'NegativeRailCoord') {
-                                StartRailCoord = new fabric.Line([x, y, x1, y1], {
+                                let spnLine = new fabric.Line([x, y, x1, y1], {
                                     fill: color,
                                     stroke: color,
                                     strokeWidth: 2,
                                     selectable: false
                                 });
-                                this.data.ctx.add(StartRailCoord);
+                                this.data.ctx.add(spnLine);
+                                StartRailCoord.push(spnLine);
                             }
 
                             if (key == 'PositiveSwitchCoord') {
@@ -413,16 +402,16 @@ export default ({
                                     selectable: false
                                 });
                                 line = PositiveSwitchCoord;
-
-                                center = new fabric.Circle({
+                                //绘制矩形
+                                center = new fabric.Rect({
                                     left: PositiveSwitchCoord.left - 10,
                                     top: PositiveSwitchCoord.y1 - 20,
-                                    radius: 20,
-                                    fill: '#00000000',
-                                    stroke: '#00000000',
+                                    width: 200,
+                                    height: 20,
+                                    stroke: 'red',
                                     selectable: false
                                 });
-                                this.data.ctx.add(PositiveSwitchCoord, center);
+                                this.data.ctx.add(PositiveSwitchCoord);
                             }
                             if (key == 'NegativeSwitchCoord') {
                                 NegativeSwitchCoord = new fabric.Line([x, y, x1, y1], {
@@ -445,6 +434,201 @@ export default ({
                             }
                         }
                     })
+                }
+
+
+
+
+                if (true) {
+                    setTimeout(() => {
+                        let arrLine = null;
+                        StartRailCoord && StartRailCoord.map(item => {
+                            console.log('RailCoord', item);
+                            item.on('mouseover', () => {
+                                const { x1, y1, x2, y2 } = item;
+                                console.log('移入', x1, y1, x2, y2, ele.Name)
+                                // 1273 609 1236 646
+                                // 1476 656 1236 656
+                                // 1186 656 1216 656
+
+                                //"StartRailCoord": [[1216, 656], [1186, 656]],....................
+                                //"PositiveRailCoord": [[1236, 656], [1476, 656]],.................
+                                //"NegativeRailCoord": [[1236, 646], [1273, 609]],.................
+
+                                // "StartRailCoord": ["981, 741", "1031, 741"],
+                                // "PositiveRailCoord": ["961, 741", "770, 741"],
+                                // "NegativeRailCoord": ["961, 751", "929, 784"],
+
+                                //遍历json.RailTurnouts 通过ele.Name 找到对应的道岔
+                                let arr = json.RailTurnouts.filter(item => item.Name == ele.Name)[0];
+                                const { StartRailCoord, PositiveRailCoord, NegativeRailCoord } = arr;
+
+                                let width = PositiveRailCoord[1][0] - StartRailCoord[1][0];
+                                let height = PositiveRailCoord[1][1] - NegativeRailCoord[1][1];
+
+                                // return
+                                // 绘制矩形
+                                arrLine = new fabric.Rect({
+                                    left: StartRailCoord[1][0],
+                                    top: NegativeRailCoord[1][1],
+                                    width: width,
+                                    height: height,
+                                    fill: '#00000000',
+                                    stroke: '#fff',
+                                    strokeWidth: 2,
+                                    selectable: false,
+                                    strokeDashArray: [5, 5]
+                                });
+
+
+                                // "StartRailCoord": ["981, 741", "1031, 741"],
+                                // "PositiveRailCoord": ["961, 741", "770, 741"],
+                                // "NegativeRailCoord": ["961, 751", "929, 784"],
+
+                                console.log(arrLine, 'arrLine')
+                                this.data.ctx.add(arrLine);
+                                drawCenter()
+                                this.data.ctx.renderAll();
+
+                                arrLine && arrLine.on('mouseout', () => {
+                                    console.log('移出', ele.Name)
+                                    if (arrLine) {
+                                        this.data.ctx.remove(arrLine)
+                                        clearCenter()
+                                        this.data.ctx.renderAll();
+                                    }
+                                    this.data.ctx.remove(arrLine)
+                                    clearCenter()
+                                    this.data.ctx.renderAll();
+                                })
+
+
+                                //点击事件
+                                arrLine && arrLine.on('mousedown', (e) => {
+                                    //右键
+                                    if (e.button == 3) {
+                                        console.log('右键')
+                                        //arrLine 鼠标移出事件解绑
+                                        arrLine.off('mouseout');
+                                        //绘制矩形
+                                        ContextMenu.showContextMenu({
+                                            x: e.e.clientX,
+                                            y: e.e.clientY,
+                                            items: [
+                                                {
+                                                    label: "单锁",
+                                                    onClick: () => {
+                                                        const fn = () => {
+                                                            return new Promise((resolve, reject) => {
+                                                                let { left, y1 } = line;
+                                                                circle = new fabric.Circle({
+                                                                    left: left - 10,
+                                                                    top: y1 - 10,
+                                                                    radius: 10,
+                                                                    fill: 'rgba(0,0,0,0)',
+                                                                    stroke: '#0f0',
+                                                                    selectable: false
+                                                                });
+                                                                this.data.ctx.add(circle)
+                                                                resolve();
+                                                            })
+                                                        }
+
+                                                        fn().then(() => {
+                                                            clearCenter();
+                                                        })
+                                                        //重新绑定arrLine 移出事件
+                                                        this.data.ctx.remove(arrLine);
+                                                        this.data.ctx.renderAll();
+                                                        arrLine.on('mouseout', () => {
+                                                            console.log('移出', ele.Name)
+                                                            if (arrLine) {
+                                                                this.data.ctx.remove(arrLine)
+                                                                clearCenter()
+                                                                this.data.ctx.renderAll();
+                                                            }
+                                                            this.data.ctx.remove(arrLine)
+                                                            clearCenter()
+                                                            this.data.ctx.renderAll();
+                                                        })
+                                                    }
+                                                },
+                                                {
+                                                    label: "单解",
+                                                    onClick: () => {
+                                                        this.data.ctx.remove(circle);
+
+                                                        this.data.ctx.remove(arrLine);
+                                                        clearCenter()
+                                                        this.data.ctx.renderAll();
+                                                        arrLine.on('mouseout', () => {
+                                                            console.log('移出', ele.Name)
+                                                            if (arrLine) {
+                                                                this.data.ctx.remove(arrLine)
+                                                                clearCenter()
+                                                                this.data.ctx.renderAll();
+                                                            }
+                                                            this.data.ctx.remove(arrLine)
+                                                            clearCenter()
+                                                            this.data.ctx.renderAll();
+                                                        })
+                                                    }
+                                                },
+                                                {
+                                                    label: '定操',
+                                                    onClick: () => {
+                                                        //显示
+                                                        drawCenter();
+                                                        PositiveSwitchCoord.set('visible', true);
+
+                                                        this.data.ctx.remove(arrLine)
+                                                        this.data.ctx.renderAll();
+                                                        arrLine.on('mouseout', () => {
+                                                            console.log('移出', ele.Name)
+                                                            if (arrLine) {
+                                                                this.data.ctx.remove(arrLine)
+                                                                clearCenter()
+                                                                this.data.ctx.renderAll();
+                                                            }
+                                                            this.data.ctx.remove(arrLine)
+                                                            clearCenter()
+                                                            this.data.ctx.renderAll();
+                                                        })
+                                                    }
+                                                },
+                                                {
+                                                    label: '反操',
+                                                    onClick: () => {
+                                                        drawCenter();
+                                                        PositiveSwitchCoord.set('visible', false);
+                                                        // this.data.ctx.renderAll();
+
+
+                                                        this.data.ctx.remove(arrLine)
+                                                        this.data.ctx.renderAll();
+                                                        arrLine.on('mouseout', () => {
+                                                            console.log('移出', ele.Name)
+                                                            if (arrLine) {
+                                                                this.data.ctx.remove(arrLine)
+                                                                clearCenter()
+                                                                this.data.ctx.renderAll();
+                                                            }
+                                                            this.data.ctx.remove(arrLine)
+                                                            clearCenter()
+                                                            this.data.ctx.renderAll();
+                                                        })
+                                                    }
+                                                }
+                                            ]
+                                        })
+                                    }
+                                })
+
+
+                            })
+                        })
+
+                    }, 1000)
                 }
 
 
@@ -476,7 +660,6 @@ export default ({
                     NegativeSwitchCoord.set('visible', true);
                     NegativeSwitchCoord.set('stroke', 'red');
                     StartSwitchCoord.set('stroke', 'red');
-                    NegativeSwitchCoord.set('stroke', 'red');
                     PositiveSwitchCoord.set('stroke', 'red');
                     this.data.ctx.renderAll();
                 }

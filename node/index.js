@@ -1,28 +1,74 @@
-//生成express服务
-import express from 'express';
-import drawjson from '../src/json/station.json'
-const app = express()
-const port = 3000
+import { readFile } from 'fs/promises';
+// import _ from 'lodash';
+const jsonData = JSON.parse(
+    await readFile(
+        new URL('../src/json/station.json', import.meta.url)
+    )
+)
 
-//设置跨域访问
+// 处理JSON的公用函数
+function handleJSON(jsonData) {
+    // let result = {};
+    // for (let key in jsonData) {
+    //     if (Array.isArray(jsonData[key])) { // 如果是数组，则将字符串转成数组
+    //         result[key] = jsonData[key].map(item => JSON.parse(item));
+    //     } else {
+    //         result[key] = jsonData[key];
+    //     }
+    //     if (key === 'Id' && jsonData[key][jsonData[key].length - 1] === '2') { // 如果Id最后一位数是2，则删除这一项
+    //         delete result[key];
+    //     }
+    // }
+    // return jsonData;
+    return new Promise((resolve, reject) => {
+        // let json = _.cloneDeep(this.json);
+        //遍历json对象
+        let result = {}
+        for (let key in jsonData) {
+            //判断json[key]是否为数组
+            if (Array.isArray(jsonData[key])) {
+                //遍历数组将数组中的字符串转为数组
+                result[key] = jsonData[key].map((ele, index) => {
+                    if (typeof ele == 'string') {
+                        jsonData[key][index] = ele.split(',').map(ele => {
+                            return Number(ele)
+                        })
+                    }
+                })
+            } else {
+                result[key] = jsonData[key]
+            }
+            //如果jsonData[key].Id 最后一位数是2的话 删除这一项
+            if (key === 'Id' && jsonData[key][jsonData[key].length - 1] === '2') { // 如果Id最后一位数是2，则删除这一项
+                delete result[key];
+            }
+        }
+        return resolve(result)
+    })
+}
+
+//express 搭建服务器
+import express from 'express';
+const app = express();
+const port = 3000;
+//处理跨域
 app.all('*', function (req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*')
-    res.header('Access-Control-Allow-Headers', 'Content-Type, Content-Length, Authorization, Accept, X-Requested-With , yourHeaderFeild')
-    res.header('Access-Control-Allow-Methods', 'PUT, POST, GET, DELETE, OPTIONS')
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Headers', 'Content-Type,Content-Length, Authorization, Accept,X-Requested-With');
+    res.header('Access-Control-Allow-Methods', 'PUT,POST,GET,DELETE,OPTIONS');
     if (req.method == 'OPTIONS') {
-        res.send(200)
+        res.send(200);
     } else {
-        next()
+        next();
     }
 })
-
-//访问路由 发送json数据
-app.get('/drawjson', (req, res) => {
-    res.send(drawjson)
+//处理请求
+app.get('/station', async (req, res) => {
+    const data = await handleJSON(jsonData);
+    console.log(data)
+    res.send(data)
 })
 
-
-//监听端口
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })

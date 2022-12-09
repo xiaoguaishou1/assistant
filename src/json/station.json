@@ -1815,7 +1815,7 @@
       "Type": 0,
       "Name": "8DGA",
       "NameCoord": "2039, 1006",
-      "Coord": ["1991, 999", "2156, 999", "2191, 963"],
+      "Coord": ["2191, 963", "2156, 999", "1991, 999"],
       "TrainTextCoord": "1368, 687",
       "DrawTrainUp": true,
       "UpgoingToLeft": true,

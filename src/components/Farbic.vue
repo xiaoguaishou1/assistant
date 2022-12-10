@@ -10,7 +10,7 @@ import json from '../json/station.json';
 import { reactive, ref } from 'vue';
 import _ from 'loadsh';
 import ContextMenu from '@imengyu/vue3-context-menu'
-
+import axios from 'axios'
 export default ({
     setup() {
         const data = reactive({
@@ -37,6 +37,10 @@ export default ({
         }
         init().then(() => {
             this.createCanvas();
+        })
+
+        axios.get('http://localhost:3000/station').then(res => {
+            console.log(res.data, 'res.data');
         })
     },
     methods: {
@@ -238,8 +242,6 @@ export default ({
                     ele.Coord.forEach((item, index) => {
                         // let [x,y] = item; 解构赋值
                         let [x, y] = item;
-                        console.log(x, y, 'item')
-
                         if (index !== 0) {
                             let [x1, y1] = ele.Coord[index - 1];
                             lines = new fabric.Line([x, y, x1, y1], {
@@ -463,7 +465,6 @@ export default ({
                     setTimeout(() => {
                         let arrLine = null;
                         StartRailCoord && StartRailCoord.map(item => {
-                            console.log('RailCoord', item);
                             item.on('mouseover', () => {
                                 const { x1, y1, x2, y2 } = item;
                                 console.log('移入', x1, y1, x2, y2, ele.Name)

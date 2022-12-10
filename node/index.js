@@ -1,5 +1,4 @@
 import { readFile } from 'fs/promises';
-// import _ from 'lodash';
 const jsonData = JSON.parse(
     await readFile(
         new URL('../src/json/station.json', import.meta.url)
@@ -8,42 +7,29 @@ const jsonData = JSON.parse(
 
 // 处理JSON的公用函数
 function handleJSON(jsonData) {
-    // let result = {};
-    // for (let key in jsonData) {
-    //     if (Array.isArray(jsonData[key])) { // 如果是数组，则将字符串转成数组
-    //         result[key] = jsonData[key].map(item => JSON.parse(item));
-    //     } else {
-    //         result[key] = jsonData[key];
-    //     }
-    //     if (key === 'Id' && jsonData[key][jsonData[key].length - 1] === '2') { // 如果Id最后一位数是2，则删除这一项
-    //         delete result[key];
-    //     }
-    // }
-    // return jsonData;
     return new Promise((resolve, reject) => {
-        // let json = _.cloneDeep(this.json);
         //遍历json对象
-        let result = {}
         for (let key in jsonData) {
-            //判断json[key]是否为数组
+            //处理画布大小
+            if (key == 'CanvasBaseSz') {
+                jsonData[key] = jsonData[key].split(',')
+            }
+            //判断jsonData[key]是否为数组
             if (Array.isArray(jsonData[key])) {
-                //遍历数组将数组中的字符串转为数组
-                result[key] = jsonData[key].map((ele, index) => {
-                    if (typeof ele == 'string') {
-                        jsonData[key][index] = ele.split(',').map(ele => {
-                            return Number(ele)
-                        })
+                //遍历数组 判断数组中是否存在 key 为 'NameCoord' 的值
+                jsonData[key].forEach((item, index) => {
+                    if (item && item['NameCoord']) {
+                        //处理 NameCoord
+                        jsonData[key][index]['NameCoord'] = jsonData[key][index]['NameCoord'].split(',');
+                    }
+                    // 如果 item['Coord'] 不是数组 则转为数组
+                    if (item && item['Coord'] && !Array.isArray(item['Coord'])) {
+                        jsonData[key][index]['Coord'] = [jsonData[key][index]['Coord']];
                     }
                 })
-            } else {
-                result[key] = jsonData[key]
-            }
-            //如果jsonData[key].Id 最后一位数是2的话 删除这一项
-            if (key === 'Id' && jsonData[key][jsonData[key].length - 1] === '2') { // 如果Id最后一位数是2，则删除这一项
-                delete result[key];
             }
         }
-        return resolve(result)
+        return resolve(jsonData)
     })
 }
 
@@ -65,7 +51,6 @@ app.all('*', function (req, res, next) {
 //处理请求
 app.get('/station', async (req, res) => {
     const data = await handleJSON(jsonData);
-    console.log(data)
     res.send(data)
 })
 
